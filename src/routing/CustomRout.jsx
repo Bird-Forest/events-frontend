@@ -13,8 +13,8 @@ export default function CustomRout() {
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/view" element={<View />} />
+          <Route path="/:id/register" element={<Register />} />
+          <Route path="/:id/view" element={<View />} />
         </Routes>
       </Suspense>
     </Conttainer>

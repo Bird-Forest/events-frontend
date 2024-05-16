@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import FormInput from './FormInput';
 import FormRadio from './FormRadio';
 import { FormWrap } from './Register.styled';
+import { useUpdateEventMutation } from '../../redux/EventSlice';
 
 const validationSchema = Yup.object({
   name: Yup.string()
@@ -11,49 +12,57 @@ const validationSchema = Yup.object({
     .max(15, 'Too Long!')
     .required('This field is required'),
   email: Yup.string().email('Invalid email').required('This field is required'),
-  birthDate: Yup.date()
-    // .nullable('YYYY.MM.DD')
+  birthday: Yup.date()
     .min(new Date(1900, 0, 1))
-    .required('YYYY.MM.DD'),
-  radioValue: Yup.string().required('Please select'),
-  //   picked: Yup.string().required('Please select'),
+    .required('This field is required'),
+  radio: Yup.string().required('Please select'),
 });
 
 const initialValues = {
   name: '',
   email: '',
-  birthDate: '',
-  radioValue: '',
+  birthday: '',
+  radio: '',
 };
 
-export default function Registration() {
+export default function Registration({ id, data }) {
   const radioOptions = [
     { value: 'Social media', label: 'Social media' },
     { value: 'Friends', label: 'Friends' },
     { value: 'Found myself', label: 'Found myself' },
   ];
+
+  const [updateEvent] = useUpdateEventMutation();
+
   return (
     <FormWrap>
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
         onSubmit={(values, { setSubmitting, resetForm }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(true);
-            console.log(values);
-            resetForm();
-          }, 400);
+          let arr = data.participants.concat(values);
+
+          let newData = {
+            title: data.title,
+            description: data.description,
+            date: data.date,
+            organizer: data.organizer,
+            participants: arr,
+          };
+
+          updateEvent({ id, newData });
+          setSubmitting(true);
+
+          resetForm();
         }}
       >
         {props => (
           <Form className="my-form" autoComplete="off">
             <h3 className="my-title"> Event registration</h3>
-            <FormInput label="Name*" name="name" type="text" />
+            <FormInput label="Full name*" name="name" type="text" />
             <FormInput label="Email*" name="email" type="email" />
-            <FormInput label="Date*" name="birthDate" type="birthDate" />
-            {/* <FormRadio label="picked" name="picked" type="radio" /> */}
-            <FormRadio name="radioValue" options={radioOptions} />
+            <FormInput label="Birthday*" name="birthday" type="date" />
+            <FormRadio name="radio" options={radioOptions} />
             <button type="submit" className="button">
               {props.isSubmitting ? 'loading...' : 'Submit'}
             </button>

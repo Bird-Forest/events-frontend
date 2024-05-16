@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 // ***** EVENTLIST *****
 export const ListWrap = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-  grid-auto-rows: auto;
-  grid-auto-flow: row;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
   gap: 16px;
   list-style: none;
   padding: 0;
@@ -14,68 +14,69 @@ export const ListWrap = styled.ul`
 `;
 //***** ITEM *****/
 export const ItemWrap = styled.li`
-  display: grid;
-  grid-template-columns: 344px;
-  grid-template-rows: 40px 32px 210px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  height: 380px;
   gap: 8px;
   background-color: #00bcd4;
   border-radius: 10px;
   border: 1px solid #4dd0e1;
-  padding: 16px;
+  padding: 20px;
 `;
 export const ItemTitle = styled.h3`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
   color: #ffffff;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.5;
   text-align: center;
 `;
+export const WrapDate = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+`;
+export const ItemOrgn = styled.h4`
+  display: flex;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+`;
+export const WrapTime = styled.div`
+  display: flex;
+`;
+export const ItemDate = styled.h4`
+  display: flex;
+  color: #006064;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+`;
 export const ItemDescript = styled.p`
-  display: grid;
+  display: flex;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
 `;
-export const WrapDate = styled.div`
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 16px;
-`;
-export const WrapTime = styled.div`
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-`;
-export const ItemDate = styled.h4`
-  display: grid;
-  color: #006064;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.5;
-`;
-export const ItemOrgn = styled.h4`
-  display: grid;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.5;
-`;
 export const WrapLink = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   gap: 16px;
 `;
 export const ItemLink = styled(Link)`
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 160px;
+  height: 60px;
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;

@@ -12,14 +12,14 @@ import {
 } from './Event.styled';
 
 export default function Event({ item }) {
-  const dateObj = new Date(item.data);
+  const dateObj = new Date(item.date);
   const date = dateObj.toLocaleDateString();
   const hours = dateObj.getUTCHours();
   const minutes = dateObj.getMinutes();
+  const id = item._id;
 
   return (
     <ItemWrap>
-      <ItemTitle>{item.title}</ItemTitle>
       <WrapDate>
         <ItemOrgn> {item.organizer}</ItemOrgn>
         <ItemDate>{date}</ItemDate>
@@ -29,10 +29,11 @@ export default function Event({ item }) {
           <ItemDate>{minutes}</ItemDate>
         </WrapTime>
       </WrapDate>
+      <ItemTitle>{item.title}</ItemTitle>
       <ItemDescript>{item.description}</ItemDescript>
       <WrapLink>
-        <ItemLink>Register</ItemLink>
-        <ItemLink>View</ItemLink>
+        <ItemLink to={`${id}/register`}>Register</ItemLink>
+        <ItemLink to={`${id}/view`}>View</ItemLink>
       </WrapLink>
     </ItemWrap>
   );
