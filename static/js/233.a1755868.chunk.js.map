@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/233.a1755868.chunk.js","mappings":"mLAEe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,YACd,C","sources":["pages/ViewPage.jsx"],"sourcesContent":["import React from 'react';\n\nexport default function ViewPage() {\n  return <div>ViewPage</div>;\n}\n"],"names":["ViewPage","_jsx","children"],"sourceRoot":""}
