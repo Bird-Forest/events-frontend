@@ -6,11 +6,7 @@ export const eventsApi = createApi({
   tagTypes: ['Events'],
   endpoints: builder => ({
     getEvents: builder.query({
-      query: page => ({
-        url: `/events?page=${page}&limit=4`,
-        method: 'GET',
-      }),
-      providesTags: ['Events'],
+      query: page => `/events?page=${page}&limit=4`,
     }),
     getEventById: builder.query({
       query: id => ({

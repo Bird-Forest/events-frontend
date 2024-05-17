@@ -3,29 +3,58 @@ import { nanoid } from 'nanoid';
 // import events from '../../data/events.json';
 import Event from './Event';
 import { ListWrap } from './Event.styled';
-import Pagination from 'components/pagination/Pagination';
+import { useGetEventsQuery } from '../../redux/EventSlice';
+import Loading from '../../helper/Loading';
+import EmptyPage from '../../helper/EmptyPage';
+// import Pagination from 'components/pagination/Pagination';
 
-export default function EventList({ events }) {
-  const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 4; // Количество элементов на странице
-  const totalCount = 60; // Общее количество элементов
+export default function EventList() {
+  const [page, setPage] = useState(1);
+  const { data, error, isLoading } = useGetEventsQuery(page);
+  console.log(data);
+  const totalItems = 60;
+  const limit = 4;
+  let totalPage = Math.ceil(totalItems / limit);
 
-  const handlePageChange = newPage => {
-    setCurrentPage(newPage);
-    // Здесь вы можете обновить данные, например, загрузить новую порцию данных с сервера
-  };
+  // const prevPage = () => {
+
+  //   if (page === 1) return
+  //   setPage(page - 1)
+  //   useGetEventsQuery(page);
+  // }
+  //  const nextPage = () => {
+
+  //    if (page < totalPage) {
+  //      setPage(page + 1)
+  //       useGetEventsQuery(page);
+  //    }
+  //  };
 
   return (
     <ListWrap>
-      {events.map(item => (
-        <Event key={nanoid()} item={item} />
-      ))}
-      <Pagination
-        totalCount={totalCount}
-        currentPage={currentPage}
-        pageSize={pageSize}
-        onPageChange={handlePageChange}
-      />
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div>
+          {data.map(item => (
+            <Event key={nanoid()} item={item} />
+          ))}
+          <button onClick={() => setPage(page - 1)} disabled={page === 1}>
+            Previous
+          </button>
+          <button
+            onClick={() => setPage(page + 1)}
+            disabled={page === totalPage}
+          >
+            Next
+          </button>
+        </div>
+      )}
+      {error && (
+        <EmptyPage
+          message={'The service is temporarily unavailable. Try later'}
+        />
+      )}
     </ListWrap>
   );
 }
