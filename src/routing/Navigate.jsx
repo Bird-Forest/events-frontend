@@ -14,7 +14,7 @@ export default function Navigate() {
       {/* <NavLink className="navigate" to="/view">
         View
       </NavLink> */}
-      <h4 className="title-top">Choose an event</h4>
+      {/* <h4 className="title-top">Choose an event</h4> */}
     </NavWrap>
   );
 }

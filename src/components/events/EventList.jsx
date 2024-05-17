@@ -16,20 +16,6 @@ export default function EventList() {
   const limit = 4;
   let totalPage = Math.ceil(totalItems / limit);
 
-  // const prevPage = () => {
-
-  //   if (page === 1) return
-  //   setPage(page - 1)
-  //   useGetEventsQuery(page);
-  // }
-  //  const nextPage = () => {
-
-  //    if (page < totalPage) {
-  //      setPage(page + 1)
-  //       useGetEventsQuery(page);
-  //    }
-  //  };
-
   return (
     <ListWrap>
       {isLoading ? (
