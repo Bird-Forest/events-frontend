@@ -7,15 +7,15 @@ export const eventsApi = createApi({
   endpoints: builder => ({
     getEventsAll: builder.query({
       query: () => '/events/all',
-      providesTags: ['Event'],
+      providesTags: ['Events'],
     }),
     getEvents: builder.query({
       query: page => `/events?page=${page}&limit=4`,
-      providesTags: ['Event'],
+      providesTags: ['Events'],
     }),
-    getEventsCategory: builder.query({
-      query: search => `/events/${search}`,
-      providesTags: ['Event'],
+    getEventsFilter: builder.query({
+      query: query => `/events/filter?organizer=${query}`,
+      providesTags: ['Events'],
     }),
     getEventById: builder.query({
       query: id => ({
@@ -40,5 +40,5 @@ export const {
   useGetEventsQuery,
   useUpdateEventMutation,
   useGetEventByIdQuery,
-  useGetEventsCategoryQuery,
+  useGetEventsFilterQuery,
 } = eventsApi;

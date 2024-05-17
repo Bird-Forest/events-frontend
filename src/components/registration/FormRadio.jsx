@@ -8,6 +8,7 @@ export default function FormRadio({ name, options }) {
 
   return (
     <RadioWrap>
+      <h4 className="radio-title">Where did hear about this event ?</h4>
       {options.map(option => (
         <label key={option.value} className={`label-picked ${errorClass}`}>
           <input

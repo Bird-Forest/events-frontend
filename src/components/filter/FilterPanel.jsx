@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useGetEventsAllQuery } from '../../redux/EventSlice';
+import { useGetEventsFilterQuery } from '../../redux/EventSlice';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import { BiSolidSearchAlt2 } from 'react-icons/bi';
 import {
@@ -7,33 +7,35 @@ import {
   BtnFilter,
   FilterBar,
   OptionForm,
-  SelectData,
   SelectText,
-  WrapData,
   WrapFilter,
   WrapList,
-  WrapOrganiser,
+  WrapOrganizer,
 } from './Filter.styled';
+import { useSearchParams } from 'react-router-dom';
+import FilterList from './FilterList';
+import Loading from 'helper/Loading';
 
-function getCategories(items, itemName) {
-  if (!items) return [];
-  return items.reduce((acc, item) => {
-    if (!acc.includes(item[itemName])) acc.push(item[itemName]);
-    return acc.sort((a, b) => a.localeCompare(b));
-  }, []);
-}
-
-export default function FilterPanel() {
+export default function FilterPanel({ organizers }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [organizer, setOrganizer] = useState('Select');
-  const { data } = useGetEventsAllQuery();
-  const organizers = getCategories(data, 'organizer');
-  console.log(organizers);
+  const [organizer, setOrganizer] = useState('select');
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get('query');
+
+  const { data, isLoading } = useGetEventsFilterQuery(query);
+
+  const handleSelect = () => {
+    setSearchParams({ query: organizer });
+  };
+
   return (
     <FilterBar>
+      {isLoading && <Loading />}
       <WrapFilter>
-        <WrapOrganiser>
+        <WrapOrganizer>
           <SelectText
+            type="text"
             id="organizer"
             name="organizer"
             value={organizer}
@@ -48,7 +50,7 @@ export default function FilterPanel() {
           </BtnArrow>
           <WrapList
             style={{
-              display: isOpen ? 'none' : 'block',
+              display: !isOpen ? 'none' : 'block',
             }}
           >
             {organizers.map(item => (
@@ -62,19 +64,12 @@ export default function FilterPanel() {
               </OptionForm>
             ))}
           </WrapList>
-        </WrapOrganiser>
-        <BtnFilter type="button">
+        </WrapOrganizer>
+        <BtnFilter type="button" onClick={handleSelect}>
           <BiSolidSearchAlt2 className="icon-search" />
         </BtnFilter>
       </WrapFilter>
-      <WrapFilter>
-        <WrapData>
-          <SelectData type="date" id="date" name="date" value={new Date()} />
-        </WrapData>
-        <BtnFilter type="button">
-          <BiSolidSearchAlt2 className="icon-search" />
-        </BtnFilter>
-      </WrapFilter>
+      <FilterList data={data} />
     </FilterBar>
   );
 }

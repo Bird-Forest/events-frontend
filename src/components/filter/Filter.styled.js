@@ -1,28 +1,26 @@
 import styled from 'styled-components';
-export const FilterBar = styled.div`
-  /* z-index: 1; */
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 600px;
-  height: 74px;
-  padding: 0;
-  margin: 20px auto;
-`;
 
+export const FilterBar = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+`;
 export const WrapFilter = styled.div`
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  gap: 20px;
   padding: 0;
   margin: 0;
 `;
-
-export const WrapOrganiser = styled.div`
+export const WrapOrganizer = styled.div`
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 8px;
@@ -30,7 +28,6 @@ export const WrapOrganiser = styled.div`
   background: rgb(247, 247, 251);
   padding: 14px 18px;
 `;
-
 export const SelectText = styled.input`
   display: flex;
   justify-content: space-between;
@@ -68,6 +65,7 @@ export const BtnArrow = styled.button`
 `;
 export const WrapList = styled.ul`
   position: absolute;
+  z-index: 2;
   top: 36px;
   left: 0;
   display: flex;
@@ -118,44 +116,6 @@ export const OptionForm = styled.li`
     font-weight: 600;
   }
 `;
-export const WrapData = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
-  border-radius: 14px;
-  background: rgb(247, 247, 251);
-  padding: 13px 18px;
-`;
-export const SelectData = styled.input`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* width: 28px;
-  height: 20px; */
-  width: 130px;
-  height: 20px;
-  outline: rgb(247, 247, 251);
-  border: none;
-  background-color: rgb(247, 247, 251);
-  padding: 0;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.11;
-  text-align: left;
-  color: #00838f;
-  /* outline: rgb(247, 247, 251);
-  border: none;
-  background-color: rgb(247, 247, 251);
-  color: rgb(18, 20, 23);
-  font-family: 'Manrope';
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.11;
-  text-align: left; */
-`;
 export const BtnFilter = styled.button`
   width: 48px;
   height: 48px;
@@ -177,4 +137,14 @@ export const BtnFilter = styled.button`
   :focus {
     background-color: #00bcd4;
   }
+`;
+export const ListFilter = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
 `;

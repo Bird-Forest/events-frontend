@@ -1,18 +1,17 @@
 import React from 'react';
 import { WrapLoading } from './Helper.styled';
-import { RotatingLines } from 'react-loader-spinner';
+import { Watch } from 'react-loader-spinner';
 
 export default function Loading() {
   return (
     <WrapLoading>
-      <RotatingLines
+      <Watch
         visible={true}
-        height="96"
-        width="96"
-        color="grey"
-        strokeWidth="5"
-        animationDuration="0.75"
-        ariaLabel="rotating-lines-loading"
+        height="160"
+        width="160"
+        radius="96"
+        color="#00838f"
+        ariaLabel="watch-loading"
         wrapperStyle={{}}
         wrapperClass=""
       />

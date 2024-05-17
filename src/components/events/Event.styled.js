@@ -1,6 +1,18 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const MainWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  background-color: #b2ebf2;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+`;
+
 // ***** EVENTLIST *****
 export const ListWrap = styled.ul`
   display: flex;
@@ -68,7 +80,6 @@ export const WrapLink = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   gap: 16px;
 `;
 export const ItemLink = styled(Link)`
@@ -88,5 +99,46 @@ export const ItemLink = styled(Link)`
   &:hover,
   :focus {
     background-color: #0097a7;
+  }
+`;
+export const WrapBtn = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 48px;
+  padding: 0;
+  margin: 0 auto;
+`;
+export const BtnPagin = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: none;
+  outline: transparent;
+  background-color: #00acc1;
+  cursor: pointer;
+  &:hover,
+  :focus {
+    background-color: #0097a7;
+  }
+  .btn-icon {
+    width: 28px;
+    height: 28px;
+    fill: #ffffff;
+  }
+`;
+export const TextWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  .text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #006064;
   }
 `;

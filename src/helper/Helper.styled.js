@@ -13,22 +13,28 @@ export const WrapLoading = styled.div`
   background-color: rgba(189, 189, 189, 0.5);
 `;
 export const WrapEmpty = styled.div`
+  position: relative;
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 16px;
-  padding: 40px;
+  background-color: #b2ebf2;
+
   .empty-title {
-    font-size: clamp(1rem, 0.636rem + 1.82vw, 2rem);
-    color: green;
+    z-index: 1;
+    font-size: 32px;
+    color: #00838f;
     font-weight: 500;
+    margin-top: 100px;
   }
   .icon-empty {
-    width: 240px;
-    height: 320px;
-    fill: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    fill: #80deea;
   }
 `;

@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const NavWrap = styled.header`
-  display: grid;
-  grid-template-columns: 100px 1fr;
-  grid-template-rows: auto;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0 auto;
   .navigate {
-    font-size: clamp(16px, 0.909rem + 0.45vw, 20px);
+    font-size: 28px;
     font-weight: 600;
     color: #006064;
     text-decoration: none;

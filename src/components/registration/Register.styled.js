@@ -6,7 +6,6 @@ export const FormWrap = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #fafafa;
   margin: 0;
   padding: 0;
 
@@ -15,19 +14,19 @@ export const FormWrap = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 300px;
+    width: 380px;
     background-color: white;
     border-radius: 16px;
-    border: 2px solid #eeeeee;
-    margin: 8px auto;
-    gap: 4px;
-    padding: 8px;
+    background-color: #80deea;
+
+    gap: 12px;
+    padding: 20px 20px 40px 20px;
   }
   .my-title {
-    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+    font-size: 28px;
     text-align: center;
-    font-weight: 700;
-    color: #616161;
+    font-weight: 600;
+    color: #006064;
     padding: 0;
     margin: 0;
   }
@@ -36,41 +35,39 @@ export const FormWrap = styled.div`
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #bdbdbd;
-    border-radius: 16px;
-    border: 1px solid #bdbdbd;
-    outline: #bdbdbd;
+    width: 280px;
     height: 40px;
-    margin: 0;
-    padding: 0 100px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    background-color: #00acc1;
+    border-radius: 8px;
+    border: none;
+    outline: transparent;
     cursor: pointer;
     &:hover,
     :focus {
-      background-color: #757575;
-    }
-    @media screen and (min-width: 767px) {
-      margin: 8px auto;
+      background-color: #0097a7;
     }
   }
 `;
 
 export const InputWrap = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
   padding: 0;
   margin: 8px auto 8px auto;
   .my-input {
     display: flex;
-    flex-grow: 1;
-    /* height: 20px; */
-    font-size: 16px;
+    width: 300px;
+    height: 36px;
+    color: #006064;
+    font-size: 20px;
     border-radius: 8px;
-    border: 2px solid #616161;
-    outline: #616161;
+    border: 2px solid #ffffff;
+    outline: #ffffff;
     padding: 4px 8px;
     margin: 0;
   }
@@ -78,58 +75,39 @@ export const InputWrap = styled.div`
     border: 2px solid #ff1744;
   }
   .label-input {
-    position: absolute;
-    top: -24%;
-    left: 28px;
-    font-size: 14px;
-    text-align: center;
-    color: #616161;
-    background-color: white;
+    font-size: 16px;
+    text-align: left;
+    color: #006064;
     pointer-events: none;
-    transition: all 0.2s ease-in-out;
     padding: 0;
     margin: 0;
   }
   .label-input.error {
     color: #ff1744;
   }
-  .my-password {
-    display: flex;
-    flex-grow: 1;
-    /* height: 20px; */
-    font-size: 16px;
-    border-radius: 8px;
-    border: 2px solid #616161;
-    outline: #616161;
-    padding: 4px 8px;
-    margin: 0;
-  }
-  .my-password.error {
-    border: 2px solid #ff1744;
-  }
 `;
 export const RadioWrap = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
   .radio-title {
-    display: grid;
-    font-size: 16px;
-    border-radius: 8px;
-    border: 2px solid #616161;
-    outline: #616161;
-    padding: 4px 8px;
+    display: flex;
+    font-size: 20px;
+    color: #006064;
+    padding: 0;
     margin: 0;
   }
   .radio-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
   }
   .lable-picked {
-    display: grid;
-    font-size: 16px;
-    color: #616161;
+    display: flex;
+    font-size: 20px;
+    color: #006064;
+    padding: 0;
+    margin: 0;
   }
   .label-picked.error {
     color: #ff1744;
@@ -137,7 +115,7 @@ export const RadioWrap = styled.div`
   .input-picked {
     display: grid;
     font-size: 16px;
-    color: #616161;
+    color: #006064;
   }
   .input-picked.error {
     border: 2px solid #ff1744;

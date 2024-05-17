@@ -1,46 +1,58 @@
 import React, { useState } from 'react';
-import { nanoid } from 'nanoid';
-// import events from '../../data/events.json';
 import Event from './Event';
-import { ListWrap } from './Event.styled';
+import {
+  BtnPagin,
+  ListWrap,
+  MainWrap,
+  TextWrap,
+  WrapBtn,
+} from './Event.styled';
 import { useGetEventsQuery } from '../../redux/EventSlice';
 import Loading from '../../helper/Loading';
 import EmptyPage from '../../helper/EmptyPage';
-// import Pagination from 'components/pagination/Pagination';
+import { nanoid } from '@reduxjs/toolkit';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 export default function EventList() {
   const [page, setPage] = useState(1);
-  const { data, error, isLoading } = useGetEventsQuery(page);
+  const { data, isLoading } = useGetEventsQuery(page);
   console.log(data);
   const totalItems = 60;
   const limit = 4;
   let totalPage = Math.ceil(totalItems / limit);
-
+  const showArr = Array.isArray(data) && data.length !== 0;
   return (
-    <ListWrap>
-      {isLoading ? (
-        <Loading />
+    <MainWrap>
+      {isLoading && <Loading />}
+      {showArr ? (
+        <>
+          <ListWrap>
+            {data.map(item => (
+              <Event key={nanoid()} item={item} />
+            ))}
+          </ListWrap>
+          <WrapBtn>
+            <BtnPagin onClick={() => setPage(page - 1)} disabled={page === 1}>
+              <FaArrowLeft className="btn-icon" />
+            </BtnPagin>
+            <TextWrap>
+              <p className="text">{page}</p>
+              <p className="text">/</p>
+              <p className="text">{totalPage}</p>
+            </TextWrap>
+            <BtnPagin
+              onClick={() => setPage(page + 1)}
+              disabled={page === totalPage}
+            >
+              <FaArrowRight className="btn-icon" />
+            </BtnPagin>
+          </WrapBtn>
+        </>
       ) : (
-        <div>
-          {data.map(item => (
-            <Event key={nanoid()} item={item} />
-          ))}
-          <button onClick={() => setPage(page - 1)} disabled={page === 1}>
-            Previous
-          </button>
-          <button
-            onClick={() => setPage(page + 1)}
-            disabled={page === totalPage}
-          >
-            Next
-          </button>
-        </div>
-      )}
-      {error && (
         <EmptyPage
           message={'The service is temporarily unavailable. Try later'}
         />
       )}
-    </ListWrap>
+    </MainWrap>
   );
 }

@@ -8,9 +8,9 @@ export default function Navigate() {
       <NavLink className="navigate" to="/">
         Home
       </NavLink>
-      {/* <NavLink className="navigate" to="/register">
-        Register
-      </NavLink> */}
+      <NavLink className="navigate" to="/filter">
+        Filter
+      </NavLink>
       {/* <NavLink className="navigate" to="/view">
         View
       </NavLink> */}

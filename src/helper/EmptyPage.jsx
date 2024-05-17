@@ -1,12 +1,12 @@
 import React from 'react';
-import { GiSherlockHolmes } from 'react-icons/gi';
 import { WrapEmpty } from './Helper.styled';
+import { GiSpiderWeb } from 'react-icons/gi';
 
 export default function EmptyPage({ message }) {
   return (
     <WrapEmpty>
+      <GiSpiderWeb className="icon-empty" />
       <h2 className="empty-title">{message}</h2>
-      <GiSherlockHolmes className="icon-empty" />
     </WrapEmpty>
   );
 }

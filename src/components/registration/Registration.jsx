@@ -59,9 +59,9 @@ export default function Registration({ id, data }) {
         {props => (
           <Form className="my-form" autoComplete="off">
             <h3 className="my-title"> Event registration</h3>
-            <FormInput label="Full name*" name="name" type="text" />
-            <FormInput label="Email*" name="email" type="email" />
-            <FormInput label="Birthday*" name="birthday" type="date" />
+            <FormInput label="Full name" name="name" type="text" />
+            <FormInput label="Email" name="email" type="email" />
+            <FormInput label="Date of birth" name="birthday" type="date" />
             <FormRadio name="radio" options={radioOptions} />
             <button type="submit" className="button">
               {props.isSubmitting ? 'loading...' : 'Submit'}

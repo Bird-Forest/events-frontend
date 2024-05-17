@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
-export const AppBarWrap = styled.div`
-  display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 8vh;
-  background-color: #008394;
-`;
-export const Conttainer = styled.div`
-  display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 92vh;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vi;
   background-color: #b2ebf2;
+`;
+export const AppBarWrap = styled.div`
+  z-index: 3;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #008394;
 `;
