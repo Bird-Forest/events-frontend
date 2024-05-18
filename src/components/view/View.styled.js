@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const ViewFilterWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+`;
 export const WrapViewList = styled.ul`
   display: flex;
   flex-wrap: wrap;

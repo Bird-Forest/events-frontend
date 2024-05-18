@@ -38,8 +38,8 @@ export const SelectText = styled.input`
   border: none;
   background-color: rgb(247, 247, 251);
   padding: 0;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 1.11;
   text-align: left;
   color: #00838f;
@@ -72,6 +72,7 @@ export const WrapList = styled.ul`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  gap: 8px;
   list-style: none;
   width: 224px;
   height: 200px;
@@ -105,15 +106,15 @@ export const WrapList = styled.ul`
 `;
 export const OptionForm = styled.li`
   color: #00acc1;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
   cursor: pointer;
   &:hover {
     color: #00838f;
-    font-weight: 600;
+    font-weight: 500;
   }
 `;
 export const BtnFilter = styled.button`
@@ -147,4 +148,43 @@ export const ListFilter = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0 auto;
+`;
+export const WrapSearch = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+`;
+export const SearchInput = styled.input`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 188px;
+  height: 20px;
+  outline: rgb(247, 247, 251);
+  border: none;
+  background-color: rgb(247, 247, 251);
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: left;
+  color: #00838f;
+  &::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.11;
+    text-align: left;
+    color: #26c6da;
+  }
+`;
+export const WrapInput = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  border-radius: 14px;
+  background: rgb(247, 247, 251);
+  padding: 14px 18px;
 `;

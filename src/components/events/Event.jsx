@@ -12,11 +12,12 @@ import {
 } from './Event.styled';
 
 export default function Event({ item }) {
+  const id = item._id;
+
   const dateObj = new Date(item.date);
   const date = dateObj.toLocaleDateString();
   const hours = dateObj.getUTCHours();
   const minutes = dateObj.getMinutes();
-  const id = item._id;
 
   return (
     <ItemWrap>

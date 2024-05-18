@@ -16,7 +16,6 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 export default function EventList() {
   const [page, setPage] = useState(1);
   const { data, isLoading } = useGetEventsQuery(page);
-  console.log(data);
   const totalItems = 60;
   const limit = 4;
   let totalPage = Math.ceil(totalItems / limit);

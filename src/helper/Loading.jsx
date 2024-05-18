@@ -1,20 +1,21 @@
 import React from 'react';
 import { WrapLoading } from './Helper.styled';
-import { Watch } from 'react-loader-spinner';
+import { RevolvingDot } from 'react-loader-spinner';
 
 export default function Loading() {
   return (
     <WrapLoading>
-      <Watch
+      render(
+      <RevolvingDot
         visible={true}
-        height="160"
-        width="160"
-        radius="96"
-        color="#00838f"
-        ariaLabel="watch-loading"
+        height="80"
+        width="80"
+        color="#00acc1"
+        ariaLabel="revolving-dot-loading"
         wrapperStyle={{}}
         wrapperClass=""
       />
+      )
     </WrapLoading>
   );
 }
