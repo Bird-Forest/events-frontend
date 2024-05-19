@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const WrapLoading = styled.div`
+  z-index: 4;
   position: fixed;
   top: 0;
   left: 0;
