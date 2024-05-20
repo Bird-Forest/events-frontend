@@ -98,7 +98,7 @@ export const ItemLink = styled(Link)`
   cursor: pointer;
   &:hover,
   :focus {
-    color: #ffffff;
+    color: #006064;
     background-color: #0097a7;
   }
 `;
