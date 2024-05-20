@@ -13,7 +13,7 @@ import EmptyPage from '../../helper/EmptyPage';
 import { nanoid } from '@reduxjs/toolkit';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
-export default function EventList() {
+export default function EventList({ location }) {
   const [page, setPage] = useState(1);
   const { data, isLoading } = useGetEventsQuery(page);
   const totalItems = 60;
@@ -27,7 +27,7 @@ export default function EventList() {
         <>
           <ListWrap>
             {data.map(item => (
-              <Event key={nanoid()} item={item} />
+              <Event key={nanoid()} item={item} location={location} />
             ))}
           </ListWrap>
           <WrapBtn>

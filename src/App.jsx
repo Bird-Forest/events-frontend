@@ -22,6 +22,8 @@ export default function App() {
             <Route path="/:id/register" element={<Register />} />
             <Route path="/:id/view" element={<View />} />
             <Route path="/filter" element={<Filter />} />
+            <Route path="/filter/:id/register" element={<Register />} />
+            <Route path="/filter/:id/view" element={<View />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

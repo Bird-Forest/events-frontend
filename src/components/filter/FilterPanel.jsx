@@ -16,7 +16,7 @@ import { useSearchParams } from 'react-router-dom';
 import FilterList from './FilterList';
 import Loading from 'helper/Loading';
 
-export default function FilterPanel({ organizers }) {
+export default function FilterPanel({ organizers, location }) {
   const [isOpen, setIsOpen] = useState(false);
   const [organizer, setOrganizer] = useState('select');
 
@@ -69,7 +69,7 @@ export default function FilterPanel({ organizers }) {
           <BiSolidSearchAlt2 className="icon-search" />
         </BtnFilter>
       </WrapFilter>
-      <FilterList data={data} />
+      <FilterList data={data} location={location} />
     </FilterBar>
   );
 }

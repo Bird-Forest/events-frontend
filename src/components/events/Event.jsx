@@ -11,7 +11,7 @@ import {
   WrapTime,
 } from './Event.styled';
 
-export default function Event({ item }) {
+export default function Event({ item, location }) {
   const id = item._id;
 
   const dateObj = new Date(item.date);
@@ -33,8 +33,12 @@ export default function Event({ item }) {
       <ItemTitle>{item.title}</ItemTitle>
       <ItemDescript>{item.description}</ItemDescript>
       <WrapLink>
-        <ItemLink to={`${id}/register`}>Register</ItemLink>
-        <ItemLink to={`${id}/view`}>View</ItemLink>
+        <ItemLink state={{ from: location }} to={`${id}/register`}>
+          Register
+        </ItemLink>
+        <ItemLink state={{ from: location }} to={`${id}/view`}>
+          View
+        </ItemLink>
       </WrapLink>
     </ItemWrap>
   );

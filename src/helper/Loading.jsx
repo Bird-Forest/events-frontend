@@ -5,7 +5,6 @@ import { RevolvingDot } from 'react-loader-spinner';
 export default function Loading() {
   return (
     <WrapLoading>
-      render(
       <RevolvingDot
         visible={true}
         height="80"
@@ -15,7 +14,6 @@ export default function Loading() {
         wrapperStyle={{}}
         wrapperClass=""
       />
-      )
     </WrapLoading>
   );
 }
