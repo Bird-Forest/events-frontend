@@ -1,75 +1,34 @@
-import React, { useState } from 'react';
-import { useGetEventsFilterQuery } from '../../redux/EventSlice';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import React from 'react';
+import { useGetEventsAllQuery } from '../../redux/EventSlice';
 import { BiSolidSearchAlt2 } from 'react-icons/bi';
-import {
-  BtnArrow,
-  BtnFilter,
-  FilterBar,
-  OptionForm,
-  SelectText,
-  WrapFilter,
-  WrapList,
-  WrapOrganizer,
-} from './Filter.styled';
-import { useSearchParams } from 'react-router-dom';
-import FilterList from './FilterList';
-import Loading from 'helper/Loading';
+import { BtnFilter, FilterBar, WrapFilter } from './Filter.styled';
+import FilterOrganizer from './FilterOrganizer';
+import FilterSpeciality from './FilterSpeciality';
+import FilterDate from './FilterDate';
 
-export default function FilterPanel({ organizers, location }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const [organizer, setOrganizer] = useState('select');
+function getCategories(items, itemName) {
+  if (!items) return [];
+  return items.reduce((acc, item) => {
+    if (!acc.includes(item[itemName])) acc.push(item[itemName]);
+    return acc.sort((a, b) => a.localeCompare(b));
+  }, []);
+}
 
-  const [searchParams, setSearchParams] = useSearchParams();
-  const query = searchParams.get('query');
-
-  const { data, isLoading } = useGetEventsFilterQuery(query);
-
-  const handleSelect = () => {
-    setSearchParams({ query: organizer });
-  };
+export default function FilterPanel() {
+  const { data } = useGetEventsAllQuery();
+  const organizers = getCategories(data, 'organizer');
+  const specialties = getCategories(data, 'title');
 
   return (
     <FilterBar>
-      {isLoading && <Loading />}
       <WrapFilter>
-        <WrapOrganizer>
-          <SelectText
-            type="text"
-            id="organizer"
-            name="organizer"
-            value={organizer}
-            readOnly={organizer}
-          />
-          <BtnArrow onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? (
-              <IoIosArrowDown className="icon-arrow" />
-            ) : (
-              <IoIosArrowUp className="icon-arrow" />
-            )}
-          </BtnArrow>
-          <WrapList
-            style={{
-              display: !isOpen ? 'none' : 'block',
-            }}
-          >
-            {organizers.map(item => (
-              <OptionForm
-                key={item}
-                value={item}
-                className="item-font"
-                onClick={() => setOrganizer(item)}
-              >
-                {item}
-              </OptionForm>
-            ))}
-          </WrapList>
-        </WrapOrganizer>
-        <BtnFilter type="button" onClick={handleSelect}>
+        <FilterOrganizer organizers={organizers} />
+        <FilterSpeciality specialties={specialties} />
+        <FilterDate />
+        <BtnFilter type="button">
           <BiSolidSearchAlt2 className="icon-search" />
         </BtnFilter>
       </WrapFilter>
-      <FilterList data={data} location={location} />
     </FilterBar>
   );
 }

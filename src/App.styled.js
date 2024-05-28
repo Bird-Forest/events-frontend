@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100vi;
-  background-color: #b2ebf2;
+  /* background-color: #b2ebf2; */
 `;
 export const AppBarWrap = styled.div`
   z-index: 3;

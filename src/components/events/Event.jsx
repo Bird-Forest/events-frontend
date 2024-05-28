@@ -5,41 +5,37 @@ import {
   ItemLink,
   ItemOrgn,
   ItemTitle,
+  ItemWab,
   ItemWrap,
   WrapDate,
   WrapLink,
-  WrapTime,
 } from './Event.styled';
+import { Link } from 'react-router-dom';
 
 export default function Event({ item, location }) {
   const id = item._id;
 
   const dateObj = new Date(item.date);
   const date = dateObj.toLocaleDateString();
-  const hours = dateObj.getUTCHours();
-  const minutes = dateObj.getMinutes();
 
   return (
     <ItemWrap>
       <WrapDate>
         <ItemOrgn> {item.organizer}</ItemOrgn>
         <ItemDate>{date}</ItemDate>
-        <WrapTime>
-          <ItemDate>{hours}</ItemDate>
-          <ItemDate>{':'}</ItemDate>
-          <ItemDate>{minutes}</ItemDate>
-        </WrapTime>
       </WrapDate>
       <ItemTitle>{item.title}</ItemTitle>
       <ItemDescript>{item.description}</ItemDescript>
+      <ItemWab>{item.web}</ItemWab>
       <WrapLink>
-        <ItemLink state={{ from: location }} to={`${id}/register`}>
-          Register
-        </ItemLink>
-        <ItemLink state={{ from: location }} to={`${id}/view`}>
-          View
-        </ItemLink>
+        <Link to={`${id}/register`}>
+          <ItemLink>Register</ItemLink>
+        </Link>
+        <Link to={`${id}/view`}>
+          <ItemLink>View </ItemLink>
+        </Link>
       </WrapLink>
     </ItemWrap>
   );
 }
+// state={{ from: location }}
