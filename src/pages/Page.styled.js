@@ -7,7 +7,7 @@ export const WrapPage = styled.div`
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
-  background-color: #b2ebf2;
+  /* background-color: #b2ebf2; */
   .wrap {
     display: flex;
     flex-direction: column;
@@ -23,9 +23,9 @@ export const WrapPage = styled.div`
     color: #00838f;
     text-decoration: none;
   }
-  .back:hover,
+  /* .back:hover,
   :hover {
     font-weight: 600;
     color: #0097a7;
-  }
+  } */
 `;

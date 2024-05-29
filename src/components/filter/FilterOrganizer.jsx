@@ -4,22 +4,41 @@ import {
   BtnArrow,
   OptionForm,
   SelectText,
-  WrapList,
-  WrapOrganizer,
+  WrapOptions,
+  WrapSelect,
 } from './Filter.styled';
+// import { useSearchParams } from 'react-router-dom';
 
 export default function FilterOrganizer({ organizers }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [organizer, setOrganizer] = useState('select');
+  const [organizer, setOrganizer] = useState('');
+
+  // const [searchParams, setSearchParams] = useSearchParams();
+  // const query = searchParams.get('query');
+  // console.log(query);
+  console.log(organizer);
+
+  // const handleSelect = evt => {
+  //   let item = evt.target.value;
+  //   console.log(item);
+  //   setOrganizer(item);
+  //   setSearchParams({ query: organizer });
+  // };
+  // const getQuery = () => {
+  //   setSearchParams({ query: organizer });
+  // };
 
   return (
-    <WrapOrganizer>
+    <WrapSelect>
       <SelectText
         type="text"
         id="organizer"
         name="organizer"
-        value={organizer}
+        // value={organizer}
+        defaultValue={organizer}
         readOnly={organizer}
+        // onChange={organizer}
+        placeholder="select"
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (
@@ -28,7 +47,7 @@ export default function FilterOrganizer({ organizers }) {
           <IoIosArrowUp className="icon-arrow" />
         )}
       </BtnArrow>
-      <WrapList
+      <WrapOptions
         style={{
           display: !isOpen ? 'none' : 'block',
         }}
@@ -39,11 +58,12 @@ export default function FilterOrganizer({ organizers }) {
             value={item}
             className="item-font"
             onClick={() => setOrganizer(item)}
+            // onClick={handleSelect}
           >
             {item}
           </OptionForm>
         ))}
-      </WrapList>
-    </WrapOrganizer>
+      </WrapOptions>
+    </WrapSelect>
   );
 }

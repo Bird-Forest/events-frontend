@@ -1,12 +1,24 @@
 import React, { useState } from 'react';
-import CalendarMonth from './CalendarMonth';
 import { format } from 'date-fns';
-import { Panel, WrapMonth } from './Calendar.styled';
+import { Days, Panel, Week, WrapDays, WrapMonth } from './Calendar.styled';
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 import { period } from './date';
+import { nanoid } from '@reduxjs/toolkit';
 
-export default function CalendarList({ handleSelect }) {
+export default function CalendarListSEnd({ handleEndDateChange }) {
   const [index, setIndex] = useState(1);
+
+  const getDaysArr = arr => {
+    const daysArr = [];
+    for (let i = 0; i < arr.length; i++) {
+      let item = arr[i];
+      // console.log(item);
+      daysArr.push(item);
+    }
+    return daysArr;
+  };
+
+  const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
 
   const getMonthArr = arr => {
     const monthArr = [];
@@ -23,6 +35,7 @@ export default function CalendarList({ handleSelect }) {
   };
   const total = months.length;
   const showMonth = months[index - 1];
+  const days = getDaysArr(showMonth);
 
   const monthName = format(new Date(showMonth[20]), 'MMMM, y');
 
@@ -45,7 +58,29 @@ export default function CalendarList({ handleSelect }) {
           <SlArrowRight className="icon" />
         </button>
       </Panel>
-      <CalendarMonth month={showMonth} handleSelect={handleSelect} />
+      <WrapDays>
+        <Week>
+          {week.map(item => (
+            <li key={nanoid()} className="week-day">
+              {item}
+            </li>
+          ))}
+        </Week>
+        <Days>
+          {days.map(item => (
+            <li key={nanoid()}>
+              <button
+                type="button"
+                value={item}
+                onClick={handleEndDateChange}
+                className="day"
+              >
+                {format(new Date(item), 'd')}
+              </button>
+            </li>
+          ))}
+        </Days>
+      </WrapDays>
     </WrapMonth>
   );
 }

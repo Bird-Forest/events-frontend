@@ -7,7 +7,7 @@ export const MainWrap = styled.div`
   /* justify-content: space-between; */
   height: 100%;
   align-items: center;
-  background-color: rgb(204, 218, 70);
+  /* background-color: rgb(204, 218, 70); */
   gap: 20px;
   padding: 0;
   margin: 0;
@@ -22,7 +22,7 @@ export const ListWrap = styled.ul`
   justify-content: center;
   gap: 16px;
   list-style: none;
-  padding: 0;
+  padding: 20px;
   margin: 0 auto;
 `;
 
@@ -38,32 +38,22 @@ export const ItemWrap = styled.li`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 340px;
-  height: 300px;
-  row-gap: 4px;
-  background-color: #ffeb3b;
+  width: 300px;
+  height: 340px;
+  row-gap: 8px;
+  background-color: #ffb300;
   background-image: url(${cloud});
   background-size: cover;
   border-radius: 10px;
   /* border: 1px solid #4dd0e1; */
   padding: 16px;
 `;
-export const ItemTitle = styled.h3`
-  display: flex;
-  color: #ff9800;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 1.5;
-  text-align: center;
-  background-color: #fffde7;
-  border-radius: 28px;
-  padding: 8px 12px;
-`;
 export const WrapDate = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 28px; */
+  height: 36px;
+  gap: 24px;
 `;
 export const ItemOrgn = styled.h4`
   display: flex;
@@ -75,9 +65,6 @@ export const ItemOrgn = styled.h4`
   border-radius: 28px;
   padding: 6px 12px;
 `;
-// export const WrapTime = styled.div`
-//   display: flex;
-// `;
 export const ItemDate = styled.h4`
   display: flex;
   color: #64dd17;
@@ -88,9 +75,27 @@ export const ItemDate = styled.h4`
   border-radius: 28px;
   padding: 6px 12px;
 `;
+export const ItemTitle = styled.h3`
+  display: flex;
+  align-items: center;
+  height: 24px;
+  /* color: #ff9800; */
+  /* color: #3f51b5; */
+  color: #0277bd;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fffde7;
+  border-radius: 28px;
+  padding: 6px 12px 10px 12px;
+`;
+
 export const ItemDescript = styled.p`
   display: flex;
-  color: #3f51b5;
+  align-items: center;
+  height: 164px;
+  color: #01579b;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -98,22 +103,24 @@ export const ItemDescript = styled.p`
 `;
 export const ItemWab = styled.a`
   display: flex;
-  color: #3f51b5;
+  height: 28px;
+  color: #0277bd;
   font-size: 20px;
 `;
 export const WrapLink = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 40px;
   gap: 16px;
 `;
 export const ItemLink = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 160px;
+  width: 140px;
   height: 40px;
-  color: #ffffff;
+  color: #fffde7;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
@@ -145,16 +152,17 @@ export const BtnPagin = styled.button`
   height: 48px;
   border: none;
   outline: transparent;
-  background-color: #00acc1;
+  /* backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.5); */
   cursor: pointer;
   &:hover,
   :focus {
-    background-color: #0097a7;
+    background-color: #fffde7;
   }
   .btn-icon {
-    width: 28px;
-    height: 28px;
-    fill: #ffffff;
+    width: 24px;
+    height: 24px;
+    fill: #0288d1;
   }
 `;
 export const TextWrap = styled.div`
@@ -163,8 +171,8 @@ export const TextWrap = styled.div`
   align-items: center;
   gap: 4px;
   .text {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
-    color: #006064;
+    color: #0288d1;
   }
 `;

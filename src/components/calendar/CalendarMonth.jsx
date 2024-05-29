@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import { Days, Week, WrapDays } from './Calendar.styled';
 import { nanoid } from '@reduxjs/toolkit';
 
-export default function CalendarMonth({ month }) {
+export default function CalendarMonth({ month, handleSelect }) {
   const getDaysArr = arr => {
     const daysArr = [];
     for (let i = 0; i < arr.length; i++) {
@@ -12,11 +12,6 @@ export default function CalendarMonth({ month }) {
       daysArr.push(item);
     }
     return daysArr;
-  };
-
-  const handleRange = evt => {
-    const start = evt.target.value;
-    console.log(start);
   };
 
   const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
@@ -36,7 +31,7 @@ export default function CalendarMonth({ month }) {
             <button
               type="button"
               value={item}
-              onClick={handleRange}
+              onClick={handleSelect}
               className="day"
             >
               {format(new Date(item), 'd')}

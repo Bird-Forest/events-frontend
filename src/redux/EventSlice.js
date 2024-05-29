@@ -45,3 +45,29 @@ export const {
   useGetEventByIdQuery,
   useGetEventsFilterQuery,
 } = eventsApi;
+
+// import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+
+const baseUrl = 'https://api.example.com'; // Замените на свой базовый URL
+
+export const myApi = createApi({
+  reducerPath: 'myApi',
+  baseQuery: fetchBaseQuery({ baseUrl }),
+  endpoints: builder => ({
+    // Добавляем запрос с тремя параметрами
+    getFilteredData: builder.query({
+      query: ({ param1, param2, param3 }) => ({
+        url: '/filtered-data',
+        method: 'GET',
+        params: {
+          param1,
+          param2,
+          param3,
+        },
+      }),
+    }),
+  }),
+});
+
+// Используем полученный хук
+export const { useGetFilteredDataQuery } = myApi;

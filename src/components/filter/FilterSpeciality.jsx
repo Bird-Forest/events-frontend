@@ -4,22 +4,25 @@ import {
   BtnArrow,
   OptionForm,
   SelectText,
-  WrapList,
-  WrapOrganizer,
+  WrapOptions,
+  WrapSelect,
 } from './Filter.styled';
 
 export default function FilterSpeciality({ specialties }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [speciality, setSpeciality] = useState('select');
+  const [speciality, setSpeciality] = useState('');
+
+  console.log(speciality);
 
   return (
-    <WrapOrganizer>
+    <WrapSelect>
       <SelectText
         type="text"
-        id="organizer"
-        name="organizer"
-        value={speciality}
+        id="speciality"
+        name="speciality"
+        defaultValue={speciality}
         readOnly={speciality}
+        placeholder="select"
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (
@@ -28,7 +31,7 @@ export default function FilterSpeciality({ specialties }) {
           <IoIosArrowUp className="icon-arrow" />
         )}
       </BtnArrow>
-      <WrapList
+      <WrapOptions
         style={{
           display: !isOpen ? 'none' : 'block',
         }}
@@ -43,7 +46,7 @@ export default function FilterSpeciality({ specialties }) {
             {item}
           </OptionForm>
         ))}
-      </WrapList>
-    </WrapOrganizer>
+      </WrapOptions>
+    </WrapSelect>
   );
 }

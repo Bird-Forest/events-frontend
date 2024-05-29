@@ -26,7 +26,9 @@ export default function Event({ item, location }) {
       </WrapDate>
       <ItemTitle>{item.title}</ItemTitle>
       <ItemDescript>{item.description}</ItemDescript>
-      <ItemWab>{item.web}</ItemWab>
+      <ItemWab href={item.web} target="_blank" rel="noopener noreferrer">
+        {item.web}
+      </ItemWab>
       <WrapLink>
         <Link to={`${id}/register`}>
           <ItemLink>Register</ItemLink>
