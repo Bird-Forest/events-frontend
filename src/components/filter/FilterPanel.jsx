@@ -1,10 +1,10 @@
 import React from 'react';
 import { useGetEventsAllQuery } from '../../redux/EventSlice';
-import { BiSolidSearchAlt2 } from 'react-icons/bi';
-import { BtnFilter, FilterBar, WrapFilter } from './Filter.styled';
+import { BtnFilter, WrapBtn, WrapCategory, WrapFilter } from './Filter.styled';
 import FilterOrganizer from './FilterOrganizer';
 import FilterSpeciality from './FilterSpeciality';
 import FilterDate from './FilterDate';
+import { FaSearch, FaSearchMinus } from 'react-icons/fa';
 
 function getCategories(items, itemName) {
   if (!items) return [];
@@ -20,16 +20,23 @@ export default function FilterPanel() {
   const specialties = getCategories(data, 'title');
 
   return (
-    <FilterBar>
-      <WrapFilter>
+    // <FilterBar>
+    <WrapFilter>
+      <WrapCategory>
         <FilterOrganizer organizers={organizers} />
         <FilterSpeciality specialties={specialties} />
-        <FilterDate />
+      </WrapCategory>
+      <FilterDate />
+      <WrapBtn>
         <BtnFilter type="button">
-          <BiSolidSearchAlt2 className="icon-search" />
+          <FaSearch className="icon-search" />
         </BtnFilter>
-      </WrapFilter>
-    </FilterBar>
+        <BtnFilter type="button">
+          <FaSearchMinus className="icon-search" />
+        </BtnFilter>
+      </WrapBtn>
+    </WrapFilter>
+    // </FilterBar>
   );
 }
 

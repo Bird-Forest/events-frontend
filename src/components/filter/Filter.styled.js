@@ -1,22 +1,48 @@
 import styled from 'styled-components';
 
-export const FilterBar = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  padding: 0;
-  margin: 0 auto;
-`;
+// export const FilterBar = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   align-items: center;
+//   gap: 20px;
+//   padding: 0;
+//   margin: 0 auto;
+// `;
+
 export const WrapFilter = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: fit-content;
   gap: 20px;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  @media only screen and (min-width: 540px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    padding: 0;
+    margin: 0 auto;
+  }
+`;
+export const WrapCategory = styled.div`
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
 `;
 export const WrapSelect = styled.div`
   position: relative;
@@ -26,7 +52,7 @@ export const WrapSelect = styled.div`
   gap: 8px;
   border-radius: 14px;
   background: #fffde7;
-  padding: 14px 18px;
+  padding: 8px 18px;
 `;
 export const SelectText = styled.input`
   display: flex;
@@ -58,22 +84,22 @@ export const BtnArrow = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   border: none;
   outline: transparent;
   background: #fffde7;
   cursor: pointer;
   .icon-arrow {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     fill: #0288d1;
   }
 `;
 export const WrapOptions = styled.ul`
   position: absolute;
   z-index: 2;
-  top: 52px;
+  top: 40px;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -109,7 +135,7 @@ export const WrapOptions = styled.ul`
     border-bottom-right-radius: 10px;
     border-right: 8px solid #fffde7;
     /* background-color: rgba(18, 20, 23, 0.05); */
-    background-color: #fff9c4;
+    background-color: #fff59d;
   }
 `;
 export const OptionForm = styled.li`
@@ -144,7 +170,7 @@ export const WrapStart = styled.div`
   gap: 20px;
   border-radius: 14px;
   background-color: #fffde7;
-  padding: 14px 18px;
+  padding: 8px 18px;
 `;
 export const WrapEnd = styled.div`
   position: relative;
@@ -154,7 +180,7 @@ export const WrapEnd = styled.div`
   gap: 20px;
   border-radius: 14px;
   background-color: #fffde7;
-  padding: 14px 18px;
+  padding: 8px 18px;
 `;
 export const WrapDates = styled.div`
   display: flex;
@@ -188,7 +214,7 @@ export const SelectDate = styled.input`
 export const WrapOptionsDate = styled.div`
   position: absolute;
   z-index: 2;
-  top: 52px;
+  top: 40px;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -197,6 +223,12 @@ export const WrapOptionsDate = styled.div`
   width: 232px;
   height: auto;
   padding: 0;
+`;
+export const WrapBtn = styled.div`
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
 `;
 export const BtnFilter = styled.button`
   width: 48px;
@@ -252,13 +284,13 @@ export const SearchInput = styled.input`
   font-weight: 500;
   line-height: 1.11;
   text-align: left;
-  color: #00838f;
+  color: #01579b;
   &::placeholder {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.11;
     text-align: left;
-    color: #26c6da;
+    color: #0277bd;
   }
 `;
 export const WrapInput = styled.div`

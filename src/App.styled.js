@@ -13,5 +13,6 @@ export const Container = styled.div`
   background-position: bottom;
   @media only screen and (min-width: 1480px) {
     height: 100vh;
+    background-position: bottom;
   }
 `;

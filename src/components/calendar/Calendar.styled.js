@@ -10,7 +10,9 @@ export const Panel = styled.div`
   grid-template-columns: 40px 152px 40px;
   grid-template-rows: 28px;
   justify-items: center;
-  border-radius: 6px;
+  /* border-radius: 6px; */
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
   background-color: #64dd17;
   .title {
     display: grid;
@@ -48,7 +50,9 @@ export const WrapDays = styled.div`
   padding: 8px;
   background-color: #fffde7;
   /* background-color: #fffde7; */
-  border-radius: 6px;
+  /* border-radius: 6px; */
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 `;
 export const Week = styled.ul`
   display: grid;

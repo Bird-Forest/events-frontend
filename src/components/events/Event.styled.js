@@ -11,6 +11,9 @@ export const MainWrap = styled.div`
   gap: 20px;
   padding: 0;
   margin: 0;
+  @media only screen and (min-width: 1480px) {
+    margin: 80px auto 0 auto;
+  }
 `;
 
 // ***** EVENTLIST *****

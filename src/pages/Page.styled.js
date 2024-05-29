@@ -17,10 +17,10 @@ export const WrapPage = styled.div`
   }
   .back {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.11;
     text-align: left;
-    color: #00838f;
+    color: #ffffff;
     text-decoration: none;
   }
   /* .back:hover,

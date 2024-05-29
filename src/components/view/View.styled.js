@@ -27,9 +27,9 @@ export const WrapItem = styled.li`
   width: 320px;
   height: 80px;
   align-content: center;
-  background-color: #00bcd4;
+  background-color: #0288d1;
   border-radius: 16px;
-  border: 1px solid #4dd0e1;
+  border: 2px solid #4dd0e1;
   padding: 16px;
 `;
 export const ViewText = styled.h4`
