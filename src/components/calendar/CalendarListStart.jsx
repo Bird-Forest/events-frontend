@@ -14,7 +14,10 @@ export default function CalendarListStart({ handleStartDateChange }) {
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
       // console.log(item);
-      daysArr.push(item);
+      // let day = format(new Date(item), 'yyyy, MM, dd');
+      let day = format(new Date(item), 'yyyy-MM-dd');
+      // console.log(day);
+      daysArr.push(day);
     }
     return daysArr;
   };
@@ -25,6 +28,7 @@ export default function CalendarListStart({ handleStartDateChange }) {
     const monthArr = [];
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
+      // console.log(item);
       monthArr.push(item);
     }
     return monthArr;

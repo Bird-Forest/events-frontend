@@ -17,3 +17,6 @@ const august = eachDayOfInterval({
   end: new Date(2024, 8, 1),
 });
 export const period = [may, june, jule, august];
+
+// const result = formatISO(new Date(2019, 8, 18, 19, 0, 52));
+//=> '2019-09-18T19:00:52Z'

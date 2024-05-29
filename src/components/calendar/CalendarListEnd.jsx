@@ -13,7 +13,8 @@ export default function CalendarListSEnd({ handleEndDateChange }) {
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
       // console.log(item);
-      daysArr.push(item);
+      let day = format(new Date(item), 'yyyy-MM-dd');
+      daysArr.push(day);
     }
     return daysArr;
   };
