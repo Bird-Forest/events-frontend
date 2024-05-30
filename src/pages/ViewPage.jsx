@@ -1,7 +1,7 @@
 import ViewList from 'components/view/ViewList';
 import React, { useRef } from 'react';
 import { WrapPage } from './Page.styled';
-import { useGetEventByIdQuery } from '../redux/EventSlice';
+import { useGetEventByIdQuery } from '../redux/eventSlice';
 import Loading from 'helper/Loading';
 import EmptyPage from 'helper/EmptyPage';
 import { Link, useLocation, useParams } from 'react-router-dom';

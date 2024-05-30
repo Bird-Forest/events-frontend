@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import {
   BtnArrow,
@@ -7,26 +7,18 @@ import {
   WrapOptions,
   WrapSelect,
 } from './Filter.styled';
-// import { useSearchParams } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { saveOrganizer } from '../../redux/filterSlice';
 
 export default function FilterOrganizer({ organizers }) {
   const [isOpen, setIsOpen] = useState(false);
   const [organizer, setOrganizer] = useState('');
+  const dispatch = useDispatch();
 
-  // const [searchParams, setSearchParams] = useSearchParams();
-  // const query = searchParams.get('query');
-  // console.log(query);
-  console.log(organizer);
-
-  // const handleSelect = evt => {
-  //   let item = evt.target.value;
-  //   console.log(item);
-  //   setOrganizer(item);
-  //   setSearchParams({ query: organizer });
-  // };
-  // const getQuery = () => {
-  //   setSearchParams({ query: organizer });
-  // };
+  useEffect(() => {
+    dispatch(saveOrganizer(organizer));
+    return () => {};
+  }, [dispatch, organizer]);
 
   return (
     <WrapSelect>
@@ -34,10 +26,8 @@ export default function FilterOrganizer({ organizers }) {
         type="text"
         id="organizer"
         name="organizer"
-        // value={organizer}
         defaultValue={organizer}
         readOnly={organizer}
-        // onChange={organizer}
         placeholder="select"
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
@@ -55,10 +45,10 @@ export default function FilterOrganizer({ organizers }) {
         {organizers.map(item => (
           <OptionForm
             key={item}
+            name="organizer"
             value={item}
             className="item-font"
             onClick={() => setOrganizer(item)}
-            // onClick={handleSelect}
           >
             {item}
           </OptionForm>

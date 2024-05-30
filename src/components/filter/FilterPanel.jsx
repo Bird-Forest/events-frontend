@@ -1,5 +1,5 @@
 import React from 'react';
-import { useGetEventsAllQuery } from '../../redux/EventSlice';
+import { useGetEventsAllQuery } from '../../redux/eventSlice';
 import { BtnFilter, WrapBtn, WrapCategory, WrapFilter } from './Filter.styled';
 import FilterOrganizer from './FilterOrganizer';
 import FilterSpeciality from './FilterSpeciality';
@@ -14,16 +14,15 @@ function getCategories(items, itemName) {
   }, []);
 }
 
-export default function FilterPanel() {
+export default function FilterPanel({ getParams }) {
   const { data } = useGetEventsAllQuery();
   const organizers = getCategories(data, 'organizer');
   const specialties = getCategories(data, 'title');
 
   return (
-    // <FilterBar>
     <WrapFilter>
       <WrapCategory>
-        <FilterOrganizer organizers={organizers} />
+        <FilterOrganizer organizers={organizers} getParams={getParams} />
         <FilterSpeciality specialties={specialties} />
       </WrapCategory>
       <FilterDate />
@@ -36,28 +35,5 @@ export default function FilterPanel() {
         </BtnFilter>
       </WrapBtn>
     </WrapFilter>
-    // </FilterBar>
   );
 }
-
-function filterData(data, param1, param2, param3) {
-  return data.filter(item => {
-    // Замените свойства объекта на те, которые вы хотите использовать для фильтрации
-    const value1 = item.property1;
-    const value2 = item.property2;
-    const value3 = item.property3;
-
-    // Примените условия фильтрации
-    return value1 === param1 && value2 === param2 && value3 === param3;
-  });
-}
-
-// Пример использования
-const dataArray = [
-  { id: 1, property1: 'A', property2: 'X', property3: 'Z' },
-  { id: 2, property1: 'B', property2: 'Y', property3: 'Z' },
-  // ... другие объекты
-];
-
-const filteredData = filterData(dataArray, 'A', 'X', 'Z');
-console.log(filteredData);

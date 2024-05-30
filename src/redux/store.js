@@ -4,10 +4,12 @@ import {
   combineReducers,
 } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/query';
-import { eventsApi } from '../redux/EventSlice';
+import { eventsApi } from './eventSlice';
+import { filterReducer } from './filterSlice';
 
 const rootReducer = combineReducers({
   [eventsApi.reducerPath]: eventsApi.reducer,
+  filter: filterReducer,
 });
 
 export const store = configureStore({

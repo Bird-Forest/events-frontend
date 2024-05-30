@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import FormInput from './FormInput';
 import FormRadio from './FormRadio';
 import { FormWrap } from './Register.styled';
-import { useUpdateEventMutation } from '../../redux/EventSlice';
+import { useUpdateEventMutation } from '../../redux/eventSlice';
 
 const validationSchema = Yup.object({
   name: Yup.string()
@@ -12,16 +12,16 @@ const validationSchema = Yup.object({
     .max(15, 'Too Long!')
     .required('This field is required'),
   email: Yup.string().email('Invalid email').required('This field is required'),
-  birthday: Yup.date()
-    .min(new Date(1900, 0, 1))
-    .required('This field is required'),
+  // birthday: Yup.date()
+  //   .min(new Date(1900, 0, 1))
+  //   .required('This field is required'),
   radio: Yup.string().required('Please select'),
 });
 
 const initialValues = {
   name: '',
   email: '',
-  birthday: '',
+  // birthday: '',
   radio: '',
 };
 
@@ -61,7 +61,7 @@ export default function Registration({ id, data }) {
             <h3 className="my-title"> Event registration</h3>
             <FormInput label="Full name" name="name" type="text" />
             <FormInput label="Email" name="email" type="email" />
-            <FormInput label="Date of birth" name="birthday" type="date" />
+            {/* <FormInput label="Date of birth" name="birthday" type="date" /> */}
             <FormRadio name="radio" options={radioOptions} />
             <button type="submit" className="button">
               {props.isSubmitting ? 'loading...' : 'Submit'}

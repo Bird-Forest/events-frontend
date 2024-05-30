@@ -16,8 +16,20 @@ export const eventsApi = createApi({
       query: page => `/events?page=${page}&limit=4`,
       providesTags: ['Events'],
     }),
+    // getEventsFilter: builder.query({
+    //   query: query => `/events/filter?organizer=${query}`,
+    //   providesTags: ['Events'],
+    // }),
     getEventsFilter: builder.query({
-      query: query => `/events/filter?organizer=${query}`,
+      query: ({ param1, param2, param3 }, page) => ({
+        url: `/events/?page=${page}&limit=4`,
+        method: 'GET',
+        params: {
+          param1,
+          param2,
+          param3,
+        },
+      }),
       providesTags: ['Events'],
     }),
     getEventById: builder.query({

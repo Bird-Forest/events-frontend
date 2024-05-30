@@ -12,7 +12,7 @@ export const MainWrap = styled.div`
   padding: 0;
   margin: 0;
   @media only screen and (min-width: 1480px) {
-    margin: 80px auto 0 auto;
+    margin: 0 auto;
   }
 `;
 
