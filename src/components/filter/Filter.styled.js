@@ -1,16 +1,6 @@
 import styled from 'styled-components';
 
-// export const FilterBar = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-start;
-//   align-items: center;
-//   gap: 20px;
-//   padding: 0;
-//   margin: 0 auto;
-// `;
-
-export const WrapFilter = styled.div`
+export const FilterBar = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +28,15 @@ export const WrapFilter = styled.div`
     margin: 0 auto;
   }
 `;
+export const WrapFilter = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+`;
 export const WrapCategory = styled.div`
   display: flex;
   gap: 20px;
@@ -47,19 +46,21 @@ export const WrapCategory = styled.div`
 export const WrapSelect = styled.div`
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
+  width: 208px;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 8px; */
   border-radius: 14px;
   background: #fffde7;
-  padding: 8px 18px;
+  padding: 8px 12px;
 `;
 export const SelectText = styled.input`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 196px;
-  height: 20px;
+  width: 152px;
+  height: 24px;
   outline: #fffde7;
   border: none;
   background-color: #fffde7;
@@ -78,28 +79,40 @@ export const SelectText = styled.input`
   }
 `;
 export const BtnArrow = styled.button`
-  position: absolute;
+  /* position: absolute;
   top: 4px;
-  right: 4px;
+  right: 4px; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 28px;
   height: 28px;
+  border-radius: 50%;
   border: none;
   outline: transparent;
   background: #fffde7;
   cursor: pointer;
+  padding: 0;
   .icon-arrow {
     width: 28px;
     height: 28px;
     fill: #0288d1;
   }
+  .icon-clear {
+    width: 28px;
+    height: 28px;
+    fill: #d32f2f;
+  }
+  &:hover,
+  :focus {
+    /* background-color: #bbdefb; */
+    background-color: #fff59d;
+  }
 `;
 export const WrapOptions = styled.ul`
   position: absolute;
   z-index: 2;
-  top: 40px;
+  top: 44px;
   left: 0;
   display: flex;
   flex-direction: column;
@@ -155,8 +168,8 @@ export const OptionForm = styled.li`
 export const WrapSelectDate = styled.div`
   /* position: relative; */
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  /* justify-content: flex-start; */
+  align-items: center;
   gap: 20px;
   /* border-radius: 14px;
   background-color: #fffde7;
@@ -165,34 +178,67 @@ export const WrapSelectDate = styled.div`
 export const WrapStart = styled.div`
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
+  width: 208px;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
   border-radius: 14px;
   background-color: #fffde7;
-  padding: 8px 18px;
+  padding: 8px 12px;
 `;
 export const WrapEnd = styled.div`
   position: relative;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
+  width: 208px;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
   border-radius: 14px;
   background-color: #fffde7;
-  padding: 8px 18px;
+  padding: 8px 12px;
 `;
-export const WrapDates = styled.div`
-  display: flex;
-  width: 196px;
-  height: 20px;
-  gap: 8px;
-`;
-export const SelectDate = styled.input`
+// export const DateStart = styled.div`
+//   display: flex;
+//   width: 180px;
+//   height: 24px;
+//   /* gap: 8px; */
+// `;
+// export const DateEnd = styled.div`
+//   display: flex;
+//   width: 152px;
+//   height: 24px;
+//   /* gap: 8px; */
+// `;
+export const SelectDateStart = styled.input`
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 196px;
+  height: 20px;
+  outline: #fffde7;
+  border: none;
+  background-color: #fffde7;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.11;
+  text-align: left;
+  color: #01579b;
+  &::placeholder {
+    color: #0277bd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+`;
+export const SelectDateEnd = styled.input`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 152px;
   height: 20px;
   outline: #fffde7;
   border: none;

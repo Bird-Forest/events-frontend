@@ -26,9 +26,7 @@ export default function RegisterPage() {
         </div>
       )}
       {error && (
-        <EmptyPage
-          message={'The service is temporarily unavailable. Try later'}
-        />
+        <EmptyPage message={'The service is temporarily unavailable.'} />
       )}
     </WrapPage>
   );

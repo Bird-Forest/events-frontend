@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown, IoIosArrowUp, IoMdClose } from 'react-icons/io';
 // import { format } from 'date-fns';
 // import { lightFormat } from 'date-fns';
 import {
   BtnArrow,
-  SelectDate,
-  WrapDates,
+  SelectDateEnd,
+  SelectDateStart,
   WrapEnd,
   WrapOptionsDate,
   WrapSelectDate,
@@ -38,27 +38,26 @@ export default function FilterDate() {
   const handleEndDateChange = event => {
     setEndDate(event.target.value);
   };
+  const onClear = () => {
+    setStartDate('');
+    setEndDate('');
+  };
 
-  console.log('START', startDate);
-  console.log('END', endDate);
-
-  // const handleSelect = () => {
-  //   // Здесь вы можете обработать выбранный период
-  //   console.log('Выбранный период:', startDate, endDate);
-  // };
+  // console.log('START', startDate);
+  // console.log('END', endDate);
 
   return (
     <WrapSelectDate>
       <WrapStart>
-        <WrapDates>
-          <SelectDate
-            placeholder="from"
-            type="text"
-            id="start-date"
-            defaultValue={startDate}
-            readOnly={startDate}
-          />
-        </WrapDates>
+        {/* <WrapDates> */}
+        <SelectDateStart
+          placeholder="from"
+          type="text"
+          id="start-date"
+          defaultValue={startDate}
+          readOnly={startDate}
+        />
+        {/* </WrapDates> */}
         <WrapOptionsDate
           style={{
             display: !isOpen ? 'none' : 'block',
@@ -68,21 +67,24 @@ export default function FilterDate() {
         </WrapOptionsDate>
       </WrapStart>
       <WrapEnd>
-        <WrapDates>
-          <SelectDate
-            placeholder="to"
-            type="text"
-            id="end-date"
-            defaultValue={endDate}
-            readOnly={endDate}
-          />
-        </WrapDates>
+        {/* <WrapDates> */}
+        <SelectDateEnd
+          placeholder="to"
+          type="text"
+          id="end-date"
+          defaultValue={endDate}
+          readOnly={endDate}
+        />
+        {/* </WrapDates> */}
         <BtnArrow onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? (
             <IoIosArrowDown className="icon-arrow" />
           ) : (
             <IoIosArrowUp className="icon-arrow" />
           )}
+        </BtnArrow>
+        <BtnArrow onClick={onClear}>
+          <IoMdClose className="icon-clear" />
         </BtnArrow>
         <WrapOptionsDate
           style={{

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown, IoIosArrowUp, IoMdClose } from 'react-icons/io';
 import {
   BtnArrow,
   OptionForm,
@@ -20,6 +20,10 @@ export default function FilterOrganizer({ organizers }) {
     return () => {};
   }, [dispatch, organizer]);
 
+  const onClear = () => {
+    setOrganizer('');
+  };
+
   return (
     <WrapSelect>
       <SelectText
@@ -36,6 +40,9 @@ export default function FilterOrganizer({ organizers }) {
         ) : (
           <IoIosArrowUp className="icon-arrow" />
         )}
+      </BtnArrow>
+      <BtnArrow onClick={onClear}>
+        <IoMdClose className="icon-clear" />
       </BtnArrow>
       <WrapOptions
         style={{

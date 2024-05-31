@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown, IoIosArrowUp, IoMdClose } from 'react-icons/io';
 import {
   BtnArrow,
   OptionForm,
@@ -19,6 +19,10 @@ export default function FilterSpeciality({ specialties }) {
     return () => {};
   }, [dispatch, speciality]);
 
+  const onClear = () => {
+    setSpeciality('');
+  };
+
   return (
     <WrapSelect>
       <SelectText
@@ -35,6 +39,9 @@ export default function FilterSpeciality({ specialties }) {
         ) : (
           <IoIosArrowUp className="icon-arrow" />
         )}
+      </BtnArrow>
+      <BtnArrow onClick={onClear}>
+        <IoMdClose className="icon-clear" />
       </BtnArrow>
       <WrapOptions
         style={{
