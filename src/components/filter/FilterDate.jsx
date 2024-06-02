@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
   IoIosArrowDown,
   IoIosArrowUp,
-  IoMdClose,
+  // IoMdClose,
   IoMdDoneAll,
 } from 'react-icons/io';
 // import { format } from 'date-fns';
