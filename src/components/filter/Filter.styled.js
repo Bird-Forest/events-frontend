@@ -65,7 +65,7 @@ export const SelectText = styled.input`
   border: none;
   background-color: #fffde7;
   padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.11;
   text-align: left;
@@ -103,6 +103,12 @@ export const BtnArrow = styled.button`
     height: 28px;
     fill: #d32f2f;
   }
+  .icon-done {
+    width: 24px;
+    height: 24px;
+    fill: #64dd17;
+  }
+
   &:hover,
   :focus {
     /* background-color: #bbdefb; */
@@ -221,7 +227,7 @@ export const SelectDateStart = styled.input`
   border: none;
   background-color: #fffde7;
   padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.11;
   text-align: left;
@@ -244,7 +250,7 @@ export const SelectDateEnd = styled.input`
   border: none;
   background-color: #fffde7;
   padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.11;
   text-align: left;

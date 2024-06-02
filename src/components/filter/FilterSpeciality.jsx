@@ -12,15 +12,15 @@ import { saveSpeciality } from '../../redux/filterSlice';
 
 export default function FilterSpeciality({ specialties }) {
   const [isOpen, setIsOpen] = useState(false);
-  const [speciality, setSpeciality] = useState('');
+  const [title, setTitle] = useState('');
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(saveSpeciality(speciality));
+    dispatch(saveSpeciality(title));
     return () => {};
-  }, [dispatch, speciality]);
+  }, [dispatch, title]);
 
   const onClear = () => {
-    setSpeciality('');
+    setTitle('');
   };
 
   return (
@@ -29,8 +29,8 @@ export default function FilterSpeciality({ specialties }) {
         type="text"
         id="speciality"
         name="speciality"
-        defaultValue={speciality}
-        readOnly={speciality}
+        defaultValue={title}
+        readOnly={title}
         placeholder="select"
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
@@ -53,7 +53,7 @@ export default function FilterSpeciality({ specialties }) {
             key={item}
             value={item}
             className="item-font"
-            onClick={() => setSpeciality(item)}
+            onClick={() => setTitle(item)}
           >
             {item}
           </OptionForm>

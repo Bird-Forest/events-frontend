@@ -4,7 +4,7 @@ const filterSlice = createSlice({
   name: 'filter',
   initialState: {
     organizer: null,
-    speciality: null,
+    title: null,
     period: [],
   },
   reducers: {
@@ -12,7 +12,7 @@ const filterSlice = createSlice({
       state.organizer = action.payload;
     },
     saveSpeciality(state, action) {
-      state.speciality = action.payload;
+      state.title = action.payload;
     },
     savePeriod(state, action) {
       state.period = action.payload;

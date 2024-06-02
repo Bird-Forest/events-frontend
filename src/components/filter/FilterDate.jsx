@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { IoIosArrowDown, IoIosArrowUp, IoMdClose } from 'react-icons/io';
+import {
+  IoIosArrowDown,
+  IoIosArrowUp,
+  IoMdClose,
+  IoMdDoneAll,
+} from 'react-icons/io';
 // import { format } from 'date-fns';
 // import { lightFormat } from 'date-fns';
 import {
@@ -17,34 +22,45 @@ import { useDispatch } from 'react-redux';
 import { savePeriod } from '../../redux/filterSlice';
 
 export default function FilterDate() {
-  const [startDate, setStartDate] = useState('');
-  const [endDate, setEndDate] = useState('');
+  const [startDay, setStartDay] = useState('');
+  const [endDay, setEndDay] = useState('');
+  const [period, setPeriod] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    const period = [startDate, endDate];
-    dispatch(savePeriod(period));
-    return () => {};
-  }, [dispatch, startDate, endDate]);
+  // useEffect(() => {
+  //   const period = [startDate, endDate];
+  //   dispatch(savePeriod(period));
+  //   return () => {};
+  // }, [dispatch, startDate, endDate]);
 
   // const start = format(new Date(startDate), 'yyyy-MM-dd');
   // console.log(start);
 
   const handleStartDateChange = event => {
-    setStartDate(event.target.value);
+    setStartDay(event.target.value);
   };
 
   const handleEndDateChange = event => {
-    setEndDate(event.target.value);
+    setEndDay(event.target.value);
   };
-  const onClear = () => {
-    setStartDate('');
-    setEndDate('');
+  // const onClear = () => {
+  //   setStartDate('');
+  //   setEndDate('');
+  // };
+  const getPeriod = () => {
+    const startDate = new Date(startDay).toISOString();
+    // console.log('START', startDate);
+    const endDate = new Date(endDay).toISOString();
+    // console.log('END', endDate);
+    setPeriod([startDate, endDate]);
+
+    dispatch(savePeriod(period));
+    // setStartDate('');
+    // setEndDate('');
   };
 
-  // console.log('START', startDate);
-  // console.log('END', endDate);
+  console.log(period);
 
   return (
     <WrapSelectDate>
@@ -54,8 +70,8 @@ export default function FilterDate() {
           placeholder="from"
           type="text"
           id="start-date"
-          defaultValue={startDate}
-          readOnly={startDate}
+          defaultValue={startDay}
+          readOnly={startDay}
         />
         {/* </WrapDates> */}
         <WrapOptionsDate
@@ -72,8 +88,8 @@ export default function FilterDate() {
           placeholder="to"
           type="text"
           id="end-date"
-          defaultValue={endDate}
-          readOnly={endDate}
+          defaultValue={endDay}
+          readOnly={endDay}
         />
         {/* </WrapDates> */}
         <BtnArrow onClick={() => setIsOpen(!isOpen)}>
@@ -83,9 +99,12 @@ export default function FilterDate() {
             <IoIosArrowUp className="icon-arrow" />
           )}
         </BtnArrow>
-        <BtnArrow onClick={onClear}>
-          <IoMdClose className="icon-clear" />
+        <BtnArrow onClick={getPeriod}>
+          <IoMdDoneAll className="icon-done" />
         </BtnArrow>
+        {/* <BtnArrow onClick={onClear}>
+          <IoMdClose className="icon-clear" />
+        </BtnArrow> */}
         <WrapOptionsDate
           style={{
             display: !isOpen ? 'none' : 'block',

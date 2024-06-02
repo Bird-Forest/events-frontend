@@ -13,11 +13,13 @@ export const eventsApi = createApi({
       providesTags: ['Events'],
     }),
     getEvents: builder.query({
-      query: ({ param1, page }) => ({
+      query: ({ param1, param2, param3, page }) => ({
         url: `/events?page=${page}&limit=4`,
         method: 'GET',
         params: {
           organizer: param1,
+          title: param2,
+          date: param3,
         },
       }),
       providesTags: ['Events'],

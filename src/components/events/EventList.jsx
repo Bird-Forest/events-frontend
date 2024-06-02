@@ -18,6 +18,7 @@ import {
   selectPeriod,
   selectSpeciality,
 } from '../../redux/selectors';
+// import { formatRFC3339 } from 'date-fns';
 
 export default function EventList({ location }) {
   const [page, setPage] = useState(1);
@@ -25,11 +26,15 @@ export default function EventList({ location }) {
   const param1 = useSelector(selectOrganizer);
   const param2 = useSelector(selectSpeciality);
   const param3 = useSelector(selectPeriod);
-  console.log(param1, param2, param3);
+  console.log(param3);
 
-  const { data, isLoading } = useGetEventsQuery({ param1, page });
+  const { data, isLoading } = useGetEventsQuery({
+    param1,
+    param2,
+    param3,
+    page,
+  });
 
-  // const res = data;
   console.log(data);
   const events = data?.result;
   const totalItems = Number(data?.totalItem);
