@@ -5,33 +5,59 @@ export const FilterBar = styled.div`
   position: fixed;
   z-index: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: space-around;
   align-items: center;
   height: fit-content;
-  width: 100%;
   backdrop-filter: blur(2px);
-  background-color: rgb(204, 221, 255, 0.5);
-  gap: 20px;
-  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.06);
+
+  width: 100%;
+  /* gap: 20px; */
+  padding: 8px 16px;
   margin: 0 auto;
-  @media only screen and (min-width: 540px) {
-    flex-direction: column;
+  @media only screen and (min-width: 768px) {
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    height: fit-content;
+    gap: 20px;
+    /* height: fit-content; */
     /* gap: 20px; */
     /* padding: 0; */
     /* margin: 0 auto; */
   }
-  @media only screen and (min-width: 1200px) {
-    flex-direction: row;
+  @media only screen and (min-width: 1084px) {
     justify-content: center;
     align-items: center;
     height: fit-content;
+    gap: 60px;
+    padding: 20px 0 10px 0;
     /* gap: 20px; */
     /* padding: 0; */
     /* margin: 0 auto; */
+  }
+`;
+export const FilterMobile = styled.button`
+  display: block;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  .icon-filter {
+    fill: #ffffff;
+    width: 36px;
+    height: 36px;
+  }
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+`;
+export const FilterVisual = styled.div`
+  display: none;
+  @media only screen and (min-width: 768px) {
+    display: block;
+    width: min-content;
   }
 `;
 export const WrapFilter = styled.div`
@@ -268,6 +294,7 @@ export const WrapOptionsDate = styled.div`
   align-items: flex-start;
   width: 232px;
   height: auto;
+  border: 1px solid rgba(18, 20, 23, 0.05);
   padding: 0;
 `;
 export const WrapBtn = styled.div`
@@ -296,6 +323,15 @@ export const BtnFilter = styled.button`
   &:hover,
   :focus {
     background-color: #fffde7;
+  }
+`;
+export const Diagram = styled.button`
+  width: 36px;
+  height: 36px;
+  .icon-graph {
+    fill: #ffffff;
+    width: 36px;
+    height: 36px;
   }
 `;
 // export const ListFilter = styled.ul`

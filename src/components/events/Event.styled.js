@@ -8,7 +8,7 @@ export const MainWrap = styled.div`
   height: 100%;
   align-items: center;
   /* background-color: rgb(204, 218, 70); */
-  gap: 20px;
+  /* gap: 20px; */
   padding: 0;
   margin: 0;
   @media only screen and (min-width: 1480px) {
@@ -25,8 +25,15 @@ export const ListWrap = styled.ul`
   justify-content: center;
   gap: 16px;
   list-style: none;
-  padding: 20px;
-  margin: 0 auto 60px auto;
+  padding: 8px;
+  margin: 24px auto 24px auto;
+  @media only screen and (min-width: 768px) {
+    margin: 96px auto 24px auto;
+  }
+  @media only screen and (min-width: 1084px) {
+    margin: 128px auto 44px auto;
+    /* overflow-y: scroll; */
+  }
 `;
 
 // rgb(254, 152, 1);
@@ -41,7 +48,7 @@ export const ItemWrap = styled.li`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 300px;
+  width: 284px;
   height: 340px;
   row-gap: 8px;
   background-color: #ffb300;
@@ -49,7 +56,11 @@ export const ItemWrap = styled.li`
   background-size: cover;
   border-radius: 10px;
   /* border: 1px solid #4dd0e1; */
-  padding: 16px;
+  padding: 8px;
+  @media only screen and (min-width: 768px) {
+    width: 300px;
+    padding: 16px;
+  }
 `;
 export const WrapDate = styled.div`
   display: flex;
@@ -145,15 +156,17 @@ export const WrapBtn = styled.div`
   align-items: center;
   width: 300px;
   height: 48px;
-  padding: 8px 0;
-  margin: 0 auto 20px auto;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 0;
+  margin: 0 auto;
   cursor: pointer;
   &:hover,
   :focus {
-    /* background-color: #fffde7; */
+    background-color: #fff8e1;
     /* border: 1px solid #0288d1; */
-    backdrop-filter: blur(2px);
-    background-color: rgb(204, 221, 255, 0.5);
+    /* backdrop-filter: blur(2px);
+    background-color: rgb(204, 221, 255, 0.5); */
     border-radius: 24px;
   }
 `;
@@ -176,7 +189,7 @@ export const BtnPagin = styled.button`
   .btn-icon {
     width: 24px;
     height: 24px;
-    fill: #0288d1;
+    fill: #64dd17;
   }
 `;
 export const TextWrap = styled.div`
@@ -187,6 +200,6 @@ export const TextWrap = styled.div`
   .text {
     font-size: 28px;
     font-weight: 600;
-    color: #0288d1;
+    color: #64dd17;
   }
 `;
