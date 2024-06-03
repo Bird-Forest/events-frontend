@@ -24,10 +24,12 @@ export const WrapItem = styled.li`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 320px;
+  width: 300px;
   height: 80px;
   align-content: center;
-  background-color: #0288d1;
+  backdrop-filter: blur(2px);
+  /* background-color: #0288d1; */
+  background-color: rgb(2, 136, 209, 0.5);
   border-radius: 16px;
   border: 2px solid #4dd0e1;
   padding: 16px;

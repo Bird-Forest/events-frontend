@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
 export const WrapPage = styled.div`
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* display: grid;
   grid-template-columns: minmax(380px, 1fr);
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto; */
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
-  /* background-color: #b2ebf2; */
   .wrap {
     display: flex;
     flex-direction: column;
@@ -23,9 +28,4 @@ export const WrapPage = styled.div`
     color: #ffffff;
     text-decoration: none;
   }
-  /* .back:hover,
-  :hover {
-    font-weight: 600;
-    color: #0097a7;
-  } */
 `;

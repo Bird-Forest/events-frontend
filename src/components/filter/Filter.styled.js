@@ -1,31 +1,37 @@
 import styled from 'styled-components';
 
 export const FilterBar = styled.div`
+  top: 0;
+  position: fixed;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: fit-content;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  background-color: rgb(204, 221, 255, 0.5);
   gap: 20px;
-  padding: 0;
+  padding: 10px 0;
   margin: 0 auto;
   @media only screen and (min-width: 540px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: fit-content;
-    gap: 20px;
-    padding: 0;
-    margin: 0 auto;
+    /* gap: 20px; */
+    /* padding: 0; */
+    /* margin: 0 auto; */
   }
   @media only screen and (min-width: 1200px) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: fit-content;
-    gap: 20px;
-    padding: 0;
-    margin: 0 auto;
+    /* gap: 20px; */
+    /* padding: 0; */
+    /* margin: 0 auto; */
   }
 `;
 export const WrapFilter = styled.div`
@@ -50,7 +56,6 @@ export const WrapSelect = styled.div`
   height: 24px;
   justify-content: space-between;
   align-items: center;
-  /* gap: 8px; */
   border-radius: 14px;
   background: #fffde7;
   padding: 8px 12px;
@@ -79,9 +84,6 @@ export const SelectText = styled.input`
   }
 `;
 export const BtnArrow = styled.button`
-  /* position: absolute;
-  top: 4px;
-  right: 4px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +113,6 @@ export const BtnArrow = styled.button`
 
   &:hover,
   :focus {
-    /* background-color: #bbdefb; */
     background-color: #fff59d;
   }
 `;
@@ -153,7 +154,6 @@ export const WrapOptions = styled.ul`
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 10px;
     border-right: 8px solid #fffde7;
-    /* background-color: rgba(18, 20, 23, 0.05); */
     background-color: #fff59d;
   }
 `;
@@ -172,14 +172,10 @@ export const OptionForm = styled.li`
 `;
 // **** CALENDAR *****
 export const WrapSelectDate = styled.div`
-  /* position: relative; */
   display: flex;
-  /* justify-content: flex-start; */
+  justify-content: center;
   align-items: center;
   gap: 20px;
-  /* border-radius: 14px;
-  background-color: #fffde7;
-  padding: 14px 18px; */
 `;
 export const WrapStart = styled.div`
   position: relative;
@@ -188,7 +184,6 @@ export const WrapStart = styled.div`
   height: 24px;
   justify-content: space-between;
   align-items: center;
-  /* gap: 20px; */
   border-radius: 14px;
   background-color: #fffde7;
   padding: 8px 12px;
@@ -200,7 +195,6 @@ export const WrapEnd = styled.div`
   height: 24px;
   justify-content: space-between;
   align-items: center;
-  /* gap: 20px; */
   border-radius: 14px;
   background-color: #fffde7;
   padding: 8px 12px;

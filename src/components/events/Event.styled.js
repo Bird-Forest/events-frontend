@@ -4,7 +4,7 @@ import cloud from '../../images/cloud.jpg';
 export const MainWrap = styled.div`
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: center;
   height: 100%;
   align-items: center;
   /* background-color: rgb(204, 218, 70); */
@@ -26,7 +26,7 @@ export const ListWrap = styled.ul`
   gap: 16px;
   list-style: none;
   padding: 20px;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
 `;
 
 // rgb(254, 152, 1);
@@ -138,13 +138,24 @@ export const ItemLink = styled.button`
   } */
 `;
 export const WrapBtn = styled.div`
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 300px;
   height: 48px;
-  padding: 0;
-  margin: 0 auto;
+  padding: 8px 0;
+  margin: 0 auto 20px auto;
+  cursor: pointer;
+  &:hover,
+  :focus {
+    /* background-color: #fffde7; */
+    /* border: 1px solid #0288d1; */
+    backdrop-filter: blur(2px);
+    background-color: rgb(204, 221, 255, 0.5);
+    border-radius: 24px;
+  }
 `;
 export const BtnPagin = styled.button`
   display: flex;
@@ -157,11 +168,11 @@ export const BtnPagin = styled.button`
   outline: transparent;
   /* backdrop-filter: blur(2px);
   background-color: rgba(255, 255, 255, 0.5); */
-  cursor: pointer;
+  /* cursor: pointer;
   &:hover,
   :focus {
     background-color: #fffde7;
-  }
+  } */
   .btn-icon {
     width: 24px;
     height: 24px;

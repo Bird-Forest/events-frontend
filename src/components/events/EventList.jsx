@@ -18,7 +18,6 @@ import {
   selectPeriod,
   selectSpeciality,
 } from '../../redux/selectors';
-// import { formatRFC3339 } from 'date-fns';
 
 export default function EventList({ location }) {
   const [page, setPage] = useState(1);
@@ -26,7 +25,6 @@ export default function EventList({ location }) {
   const param1 = useSelector(selectOrganizer);
   const param2 = useSelector(selectSpeciality);
   const param3 = useSelector(selectPeriod);
-  console.log(param3);
 
   const { data, isLoading } = useGetEventsQuery({
     param1,
@@ -35,11 +33,8 @@ export default function EventList({ location }) {
     page,
   });
 
-  console.log(data);
   const events = data?.result;
   const totalItems = Number(data?.totalItem);
-  console.log(totalItems);
-  // const totalItems = 60;
   const limit = 4;
 
   let totalPage = Math.ceil(totalItems / limit);
@@ -54,6 +49,7 @@ export default function EventList({ location }) {
               <Event key={nanoid()} item={item} location={location} />
             ))}
           </ListWrap>
+
           <WrapBtn>
             <BtnPagin onClick={() => setPage(page - 1)} disabled={page === 1}>
               <FaArrowLeft className="btn-icon" />

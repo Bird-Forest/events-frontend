@@ -20,12 +20,14 @@ import CalendarListStart from 'components/calendar/CalendarListStart';
 import CalendarListSEnd from 'components/calendar/CalendarListEnd';
 import { useDispatch } from 'react-redux';
 import { savePeriod } from '../../redux/filterSlice';
+import Notification from 'helper/Notification';
 
 export default function FilterDate() {
   const [startDay, setStartDay] = useState('');
   const [endDay, setEndDay] = useState('');
   const [period, setPeriod] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
+  const [note, setNote] = useState(false);
   const dispatch = useDispatch();
 
   // useEffect(() => {
@@ -50,14 +52,14 @@ export default function FilterDate() {
   // };
   const getPeriod = () => {
     const startDate = new Date(startDay).toISOString();
-    // console.log('START', startDate);
     const endDate = new Date(endDay).toISOString();
-    // console.log('END', endDate);
+    if (startDate > endDate) {
+      setNote(true);
+    }
+
     setPeriod([startDate, endDate]);
 
     dispatch(savePeriod(period));
-    // setStartDate('');
-    // setEndDate('');
   };
 
   console.log(period);
@@ -113,6 +115,12 @@ export default function FilterDate() {
           <CalendarListSEnd handleEndDateChange={handleEndDateChange} />
         </WrapOptionsDate>
       </WrapEnd>
+      {note && (
+        <Notification
+          message={'Ви не вірно обрали період'}
+          onClose={() => setNote(false)}
+        />
+      )}
     </WrapSelectDate>
   );
 }
