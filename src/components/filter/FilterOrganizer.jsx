@@ -32,7 +32,7 @@ export default function FilterOrganizer({ organizers }) {
         name="organizer"
         defaultValue={organizer}
         readOnly={organizer}
-        placeholder="select"
+        placeholder="organizer..."
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (

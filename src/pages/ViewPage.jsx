@@ -1,10 +1,19 @@
 import ViewList from 'components/view/ViewList';
-import React, { useRef } from 'react';
-import { WrapPage } from './Page.styled';
+import React, { useEffect, useRef, useState } from 'react';
+import { WrapViewPage } from './Page.styled';
 import { useGetEventByIdQuery } from '../redux/eventSlice';
 import Loading from 'helper/Loading';
 import EmptyPage from 'helper/EmptyPage';
 import { Link, useLocation, useParams } from 'react-router-dom';
+import {
+  BtnSearch,
+  SearchInput,
+  ViewWrap,
+  WrapGoBack,
+  WrapInput,
+  WrapSearch,
+} from 'components/view/View.styled';
+import { BsCheckCircle, BsXCircle } from 'react-icons/bs';
 
 export default function ViewPage() {
   const location = useLocation();
@@ -13,23 +22,85 @@ export default function ViewPage() {
   const params = useParams();
   const id = params.id;
   const { data, error, isLoading } = useGetEventByIdQuery(id);
+
+  const participants = data?.participants;
+  // console.log(participants);
+
+  const [byName, setByName] = useState(' ');
+  const [byEmail, setByEmail] = useState(' ');
+  const [users, setUsers] = useState([]);
+  // console.log(users);
+  useEffect(() => {
+    if (!participants) return;
+    setUsers(participants);
+  }, [participants]);
+
+  const getArrByName = () => {
+    if (byName !== ' ') {
+      const arr = users.filter(user =>
+        user.name.toLowerCase().includes(byName.toLowerCase().trim())
+      );
+      setUsers(arr);
+    }
+  };
+  const getArrByEmail = () => {
+    if (byEmail !== ' ') {
+      const arr = users.filter(user =>
+        user.email.toLowerCase().includes(byEmail.toLowerCase().trim())
+      );
+      setUsers(arr);
+    }
+  };
+  const clearName = () => {
+    setUsers(participants);
+    setByName(null);
+  };
+  const clearEmail = () => {
+    setUsers(participants);
+    setByEmail(null);
+  };
+
   return (
-    <WrapPage>
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <div className="wrap">
+    <WrapViewPage>
+      <ViewWrap>
+        <WrapGoBack>
           <Link to={backHref.current} className="back">
             Go Back
           </Link>
-          <ViewList data={data} />
-        </div>
-      )}
-      {error && (
-        <EmptyPage
-          message={'The service is temporarily unavailable. Try later'}
-        />
-      )}
-    </WrapPage>
+        </WrapGoBack>
+        <WrapSearch>
+          <WrapInput>
+            <SearchInput
+              name="name"
+              type="text"
+              placeholder="search name ..."
+              onChange={evt => setByName(evt.target.value)}
+            />
+            <BtnSearch type="button" onClick={getArrByName}>
+              <BsCheckCircle className="icon-search" />
+            </BtnSearch>
+            <BtnSearch type="button" onClick={clearName}>
+              <BsXCircle className="icon-clear" />
+            </BtnSearch>
+          </WrapInput>
+          <WrapInput>
+            <SearchInput
+              name="email"
+              type="text"
+              placeholder="search email ..."
+              onChange={evt => setByEmail(evt.target.value)}
+            />
+            <BtnSearch type="button" onClick={getArrByEmail}>
+              <BsCheckCircle className="icon-search" />
+            </BtnSearch>
+            <BtnSearch type="button" onClick={clearEmail}>
+              <BsXCircle className="icon-clear" />
+            </BtnSearch>
+          </WrapInput>
+        </WrapSearch>
+      </ViewWrap>
+      {isLoading ? <Loading /> : <ViewList users={users} />}
+      {error && <EmptyPage message={'Нажаль нічого не знайдено'} />}
+    </WrapViewPage>
   );
 }

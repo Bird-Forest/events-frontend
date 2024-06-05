@@ -10,10 +10,10 @@ export const MainWrap = styled.div`
   /* background-color: rgb(204, 218, 70); */
   /* gap: 20px; */
   padding: 0;
-  margin: 0;
-  @media only screen and (min-width: 1480px) {
+  margin: 0 auto;
+  /* @media only screen and (min-width: 1480px) {
     margin: 0 auto;
-  }
+  } */
 `;
 
 // ***** EVENTLIST *****
@@ -23,16 +23,35 @@ export const ListWrap = styled.ul`
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
+  overflow-y: auto;
+  scroll-behavior: smooth;
   gap: 16px;
   list-style: none;
   padding: 8px;
-  margin: 24px auto 24px auto;
-  @media only screen and (min-width: 768px) {
-    margin: 96px auto 24px auto;
+  margin: 48px auto 48px auto;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 80px;
   }
-  @media only screen and (min-width: 1084px) {
-    margin: 128px auto 44px auto;
-    /* overflow-y: scroll; */
+  &::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #01579b;
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding: 8px 16px;
+  }
+  @media only screen and (min-width: 1100px) {
+    margin: 68px auto 68px auto;
+  }
+  @media only screen and (min-width: 1449px) {
+    margin: 0 auto;
+    overflow-y: hidden;
   }
 `;
 
@@ -148,6 +167,7 @@ export const ItemLink = styled.button`
     background-color: #0097a7;
   } */
 `;
+// *** PAGINATION ***
 export const WrapBtn = styled.div`
   position: fixed;
   bottom: 0;
@@ -156,8 +176,8 @@ export const WrapBtn = styled.div`
   align-items: center;
   width: 300px;
   height: 48px;
-  backdrop-filter: blur(2px);
-  background-color: rgba(255, 255, 255, 0.06);
+  /* backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.06); */
   padding: 0;
   margin: 0 auto;
   cursor: pointer;
@@ -168,6 +188,12 @@ export const WrapBtn = styled.div`
     /* backdrop-filter: blur(2px);
     background-color: rgb(204, 221, 255, 0.5); */
     border-radius: 24px;
+  }
+  @media only screen and (min-width: 1100px) {
+    margin: 0 auto 20px auto;
+  }
+  @media only screen and (min-width: 1449px) {
+    margin: 0 auto 40px auto;
   }
 `;
 export const BtnPagin = styled.button`

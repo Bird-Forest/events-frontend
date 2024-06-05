@@ -26,7 +26,8 @@ export default function FilterDate() {
   const [startDay, setStartDay] = useState('');
   const [endDay, setEndDay] = useState('');
   const [period, setPeriod] = useState([]);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isStart, setIsStart] = useState(false);
+  const [isEnd, setIsEnd] = useState(false);
   const [note, setNote] = useState(false);
   const dispatch = useDispatch();
 
@@ -75,10 +76,17 @@ export default function FilterDate() {
           defaultValue={startDay}
           readOnly={startDay}
         />
+        <BtnArrow onClick={() => setIsStart(!isStart)}>
+          {isStart ? (
+            <IoIosArrowDown className="icon-arrow" />
+          ) : (
+            <IoIosArrowUp className="icon-arrow" />
+          )}
+        </BtnArrow>
         {/* </WrapDates> */}
         <WrapOptionsDate
           style={{
-            display: !isOpen ? 'none' : 'block',
+            display: !isStart ? 'none' : 'block',
           }}
         >
           <CalendarListStart handleStartDateChange={handleStartDateChange} />
@@ -94,8 +102,8 @@ export default function FilterDate() {
           readOnly={endDay}
         />
         {/* </WrapDates> */}
-        <BtnArrow onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? (
+        <BtnArrow onClick={() => setIsEnd(!isEnd)}>
+          {isEnd ? (
             <IoIosArrowDown className="icon-arrow" />
           ) : (
             <IoIosArrowUp className="icon-arrow" />
@@ -109,7 +117,7 @@ export default function FilterDate() {
         </BtnArrow> */}
         <WrapOptionsDate
           style={{
-            display: !isOpen ? 'none' : 'block',
+            display: !isEnd ? 'none' : 'block',
           }}
         >
           <CalendarListSEnd handleEndDateChange={handleEndDateChange} />

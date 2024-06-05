@@ -103,12 +103,12 @@ export const Loader = styled.span`
 `;
 
 export const WrapEmpty = styled.div`
-  position: relative;
+  /* position: relative; */
   display: flex;
   width: 100%;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
+  height: auto;
+  /* flex-direction: column; */
+  justify-content: center;
   align-items: center;
   .empty-title {
     z-index: 1;

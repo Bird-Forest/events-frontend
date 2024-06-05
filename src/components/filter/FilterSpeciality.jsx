@@ -31,7 +31,7 @@ export default function FilterSpeciality({ specialties }) {
         name="speciality"
         defaultValue={title}
         readOnly={title}
-        placeholder="select"
+        placeholder="speciality..."
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (

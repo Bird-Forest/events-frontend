@@ -1,12 +1,28 @@
 import styled from 'styled-components';
+export const WrapGoBack = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  .back {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.11;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0;
+  }
+`;
 
 export const FormWrap = styled.div`
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 20px auto;
   padding: 0;
 
   .my-form {
@@ -52,6 +68,9 @@ export const FormWrap = styled.div`
     :focus {
       background-color: #1e88e5;
     }
+  }
+  @media only screen and (min-width: 768px) {
+    margin: 120px auto 20px auto;
   }
 `;
 
