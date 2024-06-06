@@ -40,7 +40,7 @@ export const WrapAuthPage = styled.div`
   grid-template-columns: minmax(380px, 1fr);
   grid-template-rows: auto auto; */
   gap: 20px;
-  padding: 20px;
+  padding: 0;
   margin: 0 auto;
 
   /* .wrap {
@@ -80,4 +80,15 @@ export const WrapViewPage = styled.div`
     align-items: center;
     gap: 16px;
   } */
+`;
+export const WrapChartPage = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
 `;

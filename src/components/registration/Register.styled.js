@@ -22,22 +22,22 @@ export const FormWrap = styled.div`
   align-items: flex-start;
   width: 100%;
   height: 100%;
-  margin: 20px auto;
-  padding: 0;
+  margin: 0 auto;
+  padding: 16px 8px;
 
   .my-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 380px;
+    width: 280px;
     backdrop-filter: blur(2px);
     /* background-color: rgb(153, 187, 255, 0.5); */
     background-color: rgb(204, 221, 255, 0.5);
     border-radius: 16px;
     /* background-color: #90caf9; */
     gap: 8px;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 10px 40px 10px;
   }
   .my-title {
     font-size: 28px;
@@ -52,7 +52,7 @@ export const FormWrap = styled.div`
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    width: 316px;
+    width: 280px;
     height: 44px;
     color: #ffffff;
     font-size: 20px;
@@ -70,7 +70,20 @@ export const FormWrap = styled.div`
     }
   }
   @media only screen and (min-width: 768px) {
-    margin: 120px auto 20px auto;
+    .my-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 380px;
+      backdrop-filter: blur(2px);
+      /* background-color: rgb(153, 187, 255, 0.5); */
+      background-color: rgb(204, 221, 255, 0.5);
+      border-radius: 16px;
+      /* background-color: #90caf9; */
+      gap: 8px;
+      padding: 20px 20px 40px 20px;
+    }
   }
 `;
 
@@ -81,7 +94,7 @@ export const InputWrap = styled.div`
   margin: 4px auto 4px auto;
   .my-input {
     display: flex;
-    width: 300px;
+    width: 264px;
     height: 32px;
     color: #01579b;
     font-size: 20px;
@@ -107,6 +120,20 @@ export const InputWrap = styled.div`
   }
   .label-input.error {
     color: #ff1744;
+  }
+  @media only screen and (min-width: 768px) {
+    .my-input {
+      display: flex;
+      width: 300px;
+      height: 32px;
+      color: #01579b;
+      font-size: 20px;
+      border-radius: 8px;
+      border: 2px solid #ffffff;
+      outline: #ffffff;
+      padding: 4px 8px;
+      margin: 0;
+    }
   }
 `;
 export const RadioWrap = styled.div`
