@@ -3,8 +3,8 @@ import { WrapGoBack, WrapPage } from './Page.styled';
 import Registration from 'components/registration/Registration';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import Loading from 'helper/Loading';
-import { useGetEventByIdQuery } from '../redux/eventSlice';
 import EmptyPage from 'helper/EmptyPage';
+import { useGetEventByIdQuery } from '../redux/EventSlice';
 
 export default function RegisterPage() {
   const location = useLocation();

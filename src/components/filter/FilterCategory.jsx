@@ -2,8 +2,8 @@ import React from 'react';
 import { WrapCategory } from './Filter.styled';
 import FilterOrganizer from './FilterOrganizer';
 import FilterSpeciality from './FilterSpeciality';
-import { useGetEventsAllQuery } from '../../redux/eventSlice';
 import getCategories from '../../helper/categories';
+import { useGetEventsAllQuery } from '../../redux/EventSlice';
 
 export default function FilterCategory() {
   const { data } = useGetEventsAllQuery();

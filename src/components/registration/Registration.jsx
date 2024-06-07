@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import FormInput from './FormInput';
 import FormRadio from './FormRadio';
 import { FormWrap } from './Register.styled';
-import { useUpdateEventMutation } from '../../redux/eventSlice';
+import { useUpdateEventMutation } from '../../redux/EventSlice';
 
 const validationSchema = Yup.object({
   name: Yup.string()

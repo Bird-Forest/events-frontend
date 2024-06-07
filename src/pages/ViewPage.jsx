@@ -1,7 +1,6 @@
 import ViewList from 'components/view/ViewList';
 import React, { useEffect, useRef, useState } from 'react';
 import { WrapGoBack, WrapPage } from './Page.styled';
-import { useGetEventByIdQuery } from '../redux/eventSlice';
 import Loading from 'helper/Loading';
 import EmptyPage from 'helper/EmptyPage';
 import { Link, useLocation, useParams } from 'react-router-dom';
@@ -13,6 +12,7 @@ import {
   WrapSearch,
 } from 'components/view/View.styled';
 import { BsCheckCircle, BsXCircle } from 'react-icons/bs';
+import { useGetEventByIdQuery } from '../redux/EventSlice';
 
 export default function ViewPage() {
   const location = useLocation();

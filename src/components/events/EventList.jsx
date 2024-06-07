@@ -7,7 +7,7 @@ import {
   TextWrap,
   WrapBtn,
 } from './Event.styled';
-import { useGetEventsQuery } from '../../redux/eventSlice';
+import { useGetEventsQuery } from '../../redux/EventSlice';
 import Loading from '../../helper/Loading';
 import EmptyPage from '../../helper/EmptyPage';
 import { nanoid } from '@reduxjs/toolkit';
