@@ -12,7 +12,6 @@ export default function CalendarListSEnd({ handleEndDateChange }) {
     const daysArr = [];
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
-      // console.log(item);
       let day = format(new Date(item), 'yyyy-MM-dd');
       daysArr.push(day);
     }
@@ -35,7 +34,10 @@ export default function CalendarListSEnd({ handleEndDateChange }) {
     setIndex(prevIndex => prevIndex + value);
   };
   const total = months.length;
-  const showMonth = months[index - 1];
+  // ** це робоча змінна
+  // const showMonth = months[index - 1];
+  // ** встановлений липень, в якому відбуваються події
+  const showMonth = months[2];
   const days = getDaysArr(showMonth);
 
   const monthName = format(new Date(showMonth[20]), 'MMMM, y');

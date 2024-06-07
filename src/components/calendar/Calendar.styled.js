@@ -10,7 +10,6 @@ export const Panel = styled.div`
   grid-template-columns: 40px 152px 40px;
   grid-template-rows: 28px;
   justify-items: center;
-  /* border-radius: 6px; */
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
   background-color: #64dd17;
@@ -32,10 +31,6 @@ export const Panel = styled.div`
     outline: transparent;
     cursor: pointer;
   }
-  /* .btn.disabled {
-    color: #ffffff;
-    cursor: not-allowed;
-  } */
   .icon {
     fill: #fffde7;
     width: 40px;
@@ -49,8 +44,6 @@ export const WrapDays = styled.div`
   gap: 4px;
   padding: 8px;
   background-color: #fffde7;
-  /* background-color: #fffde7; */
-  /* border-radius: 6px; */
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 `;
@@ -103,78 +96,3 @@ export const Days = styled.ul`
     opacity: 0.6;
   }
 `;
-
-// export const Day = styled.span`
-//   background-color: #fff;
-//   border-radius: 50%;
-//   text-align: center;
-//   width: 32px;
-//   height: 32px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   position: relative;
-//   @media ${device.tablet} {
-//     width: 34px;
-//     height: 34px;
-//   }
-// `;
-
-// export const Modal = styled.div`
-//   position: fixed;
-//   top: var(--modal-top);
-//   left: var(--modal-left);
-//   display: none;
-
-//   &.open {
-//     display: block;
-//   }
-// `;
-
-// export const ModalContent = styled.div`
-//   width: 292px;
-//   height: 188px;
-//   background-color: var(--primary-white);
-//   padding: 24px 16px;
-//   border-radius: 10px;
-//   box-shadow: var(--btn-box-shadow);
-//   position: absolute;
-
-//   .close {
-//     position: absolute;
-//     top: 24px;
-//     right: 16px;
-//     font-size: 20px;
-//     color: var(--primary-blue);
-//   }
-//   .title-modal {
-//     position: absolute;
-//     top: 24px;
-//     color: var(--primary-blue);
-//     font-size: 16px;
-//     margin-bottom: 16px;
-//   }
-//   .modal-paragraf {
-//     font-size: 16px;
-//     color: var(--primary-black);
-//     line-height: 20px;
-//   }
-//   .modal-paragraf-one {
-//     margin-top: 36px;
-//   }
-//   .modal-paragraf-two-three {
-//     margin-top: 16px;
-//   }
-//   .span-modal {
-//     margin-left: 6px;
-//     color: var(--primary-blue);
-//     font-size: 18px;
-//   }
-// `;
-
-// export const LowPercentageDay = styled(Day)`
-//   border: var(--secondary-orange) 1px solid;
-//   &.disabled {
-//     border: none;
-//   }
-// `;

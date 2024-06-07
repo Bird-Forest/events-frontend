@@ -7,15 +7,9 @@ export const MainWrap = styled.div`
   justify-content: center;
   height: 100%;
   align-items: center;
-  /* background-color: rgb(204, 218, 70); */
-  /* gap: 20px; */
   padding: 0;
   margin: 0 auto;
-  /* @media only screen and (min-width: 1480px) {
-    margin: 0 auto;
-  } */
 `;
-
 // ***** EVENTLIST *****
 export const ListWrap = styled.ul`
   position: relative;
@@ -54,12 +48,6 @@ export const ListWrap = styled.ul`
     overflow-y: hidden;
   }
 `;
-
-// rgb(254, 152, 1);
-// rgb(244, 238, 199);
-// rgb(204, 218, 70);
-// rgb(105, 124, 55);
-
 //***** ITEM *****/
 export const ItemWrap = styled.li`
   position: relative;
@@ -74,7 +62,6 @@ export const ItemWrap = styled.li`
   background-image: url(${cloud});
   background-size: cover;
   border-radius: 10px;
-  /* border: 1px solid #4dd0e1; */
   padding: 8px;
   @media only screen and (min-width: 768px) {
     width: 300px;
@@ -112,8 +99,6 @@ export const ItemTitle = styled.h3`
   display: flex;
   align-items: center;
   height: 24px;
-  /* color: #ff9800; */
-  /* color: #3f51b5; */
   color: #0277bd;
   font-size: 22px;
   font-weight: 700;
@@ -123,7 +108,6 @@ export const ItemTitle = styled.h3`
   border-radius: 28px;
   padding: 6px 12px 10px 12px;
 `;
-
 export const ItemDescript = styled.p`
   display: flex;
   align-items: center;
@@ -161,11 +145,6 @@ export const ItemLink = styled.button`
   background-color: #64dd17;
   border-radius: 8px;
   cursor: pointer;
-  /* &:hover,
-  :focus {
-    color: #006064;
-    background-color: #0097a7;
-  } */
 `;
 // *** PAGINATION ***
 export const WrapBtn = styled.div`
@@ -176,17 +155,12 @@ export const WrapBtn = styled.div`
   align-items: center;
   width: 300px;
   height: 48px;
-  /* backdrop-filter: blur(4px);
-  background-color: rgba(255, 255, 255, 0.06); */
   padding: 0;
   margin: 0 auto;
   cursor: pointer;
   &:hover,
   :focus {
     background-color: #fff8e1;
-    /* border: 1px solid #0288d1; */
-    /* backdrop-filter: blur(2px);
-    background-color: rgb(204, 221, 255, 0.5); */
     border-radius: 24px;
   }
   @media only screen and (min-width: 1100px) {
@@ -205,13 +179,6 @@ export const BtnPagin = styled.button`
   height: 48px;
   border: none;
   outline: transparent;
-  /* backdrop-filter: blur(2px);
-  background-color: rgba(255, 255, 255, 0.5); */
-  /* cursor: pointer;
-  &:hover,
-  :focus {
-    background-color: #fffde7;
-  } */
   .btn-icon {
     width: 24px;
     height: 24px;

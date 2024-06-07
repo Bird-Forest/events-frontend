@@ -5,14 +5,6 @@ import FilterSpeciality from './FilterSpeciality';
 import { useGetEventsAllQuery } from '../../redux/eventSlice';
 import getCategories from '../../helper/categories';
 
-// function getCategories(items, itemName) {
-//   if (!items) return [];
-//   return items.reduce((acc, item) => {
-//     if (!acc.includes(item[itemName])) acc.push(item[itemName]);
-//     return acc.sort((a, b) => a.localeCompare(b));
-//   }, []);
-// }
-
 export default function FilterCategory() {
   const { data } = useGetEventsAllQuery();
   const organizers = getCategories(data, 'organizer');

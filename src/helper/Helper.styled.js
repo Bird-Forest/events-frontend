@@ -11,7 +11,6 @@ export const WrapLoading = styled.div`
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(2px);
-  /* background-color: rgba(189, 189, 189, 0.5); */
   background-color: rgba(189, 189, 189, 0.5);
 `;
 export const Loader = styled.span`
@@ -103,11 +102,9 @@ export const Loader = styled.span`
 `;
 
 export const WrapEmpty = styled.div`
-  /* position: relative; */
   display: flex;
   width: 100%;
   height: auto;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   .empty-title {

@@ -7,30 +7,14 @@ export const ViewWrap = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 16px;
-  padding: 16px 0;
+  padding: 0 0 16px 0;
   margin: 0 auto;
-`;
-export const WrapGoBack = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .back {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.11;
-    text-align: left;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0;
+  @media only screen and (min-width: 768px) {
+    gap: 16px;
   }
 `;
-
 // ** FILTER **
 export const WrapSearch = styled.div`
-  /* top: 60px;
-  position: fixed;
-  z-index: 1; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -76,17 +60,6 @@ export const SearchInput = styled.input`
     color: #0277bd;
   }
 `;
-
-// export const WrapEmail = styled.div`
-//   display: flex;
-//   width: 260px;
-//   height: 24px;
-//   justify-content: flex-start;
-//   align-items: center;
-//   border-radius: 14px;
-//   padding: 8px 12px;
-//   background: rgb(247, 247, 251);
-// `;
 export const BtnSearch = styled.button`
   width: 40px;
   height: 40px;
@@ -113,34 +86,11 @@ export const BtnSearch = styled.button`
     background-color: #e3f2fd;
   }
 `;
-// export const BtnClear = styled.button`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   width: 28px;
-//   height: 28px;
-//   border-radius: 50%;
-//   border: none;
-//   outline: transparent;
-//   background: #fffde7;
-//   cursor: pointer;
-//   padding: 0;
-//   .icon-clear {
-//     width: 28px;
-//     height: 28px;
-//     fill: #d32f2f;
-//   }
-//   &:hover,
-//   :focus {
-//     background-color: #fff59d;
-//   }
-// `;
 // ***  VIEW LIST****
 export const WrapViewList = styled.ul`
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  /* height: min-content; */
   align-content: flex-start;
   justify-content: center;
   overflow-y: auto;
@@ -148,7 +98,7 @@ export const WrapViewList = styled.ul`
   gap: 12px;
   list-style: none;
   padding: 8px;
-  margin: 160px auto 20px auto;
+  margin: 160px auto 0 auto;
 
   &::-webkit-scrollbar {
     right: 0;
@@ -165,7 +115,7 @@ export const WrapViewList = styled.ul`
     background: #01579b;
   }
   @media only screen and (min-width: 768px) {
-    margin: 120px auto 20px auto;
+    margin: 140px auto 20px auto;
   }
 `;
 export const WrapItem = styled.li`
@@ -173,22 +123,27 @@ export const WrapItem = styled.li`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 284px;
+  width: 290px;
   height: 80px;
   align-content: center;
   backdrop-filter: blur(2px);
-  /* background-color: #0288d1; */
   background-color: rgb(2, 136, 209, 0.5);
   border-radius: 16px;
   border: 1px solid #4dd0e1;
   padding: 8px;
+  @media only screen and (min-width: 768px) {
+    width: 320px;
+  }
 `;
 export const ViewText = styled.h4`
   display: flex;
   gap: 20px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
   text-align: center;
+  @media only screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 `;

@@ -68,7 +68,7 @@ export default function EventList({ location }) {
           </WrapBtn>
         </>
       ) : (
-        <EmptyPage message={'The service is temporarily unavailable.'} />
+        <EmptyPage message={'Нажаль нічого не знайдено'} />
       )}
     </MainWrap>
   );

@@ -8,7 +8,6 @@ export default function CalendarMonth({ month, handleSelect }) {
     const daysArr = [];
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
-      // console.log(item);
       daysArr.push(item);
     }
     return daysArr;

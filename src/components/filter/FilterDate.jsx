@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-  IoIosArrowDown,
-  IoIosArrowUp,
-  // IoMdClose,
-  IoMdDoneAll,
-} from 'react-icons/io';
-// import { format } from 'date-fns';
-// import { lightFormat } from 'date-fns';
+import { IoIosArrowDown, IoIosArrowUp, IoMdDoneAll } from 'react-icons/io';
 import {
   BtnArrow,
   SelectDateEnd,
@@ -31,15 +24,6 @@ export default function FilterDate() {
   const [note, setNote] = useState(false);
   const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   const period = [startDate, endDate];
-  //   dispatch(savePeriod(period));
-  //   return () => {};
-  // }, [dispatch, startDate, endDate]);
-
-  // const start = format(new Date(startDate), 'yyyy-MM-dd');
-  // console.log(start);
-
   const handleStartDateChange = event => {
     setStartDay(event.target.value);
   };
@@ -47,28 +31,21 @@ export default function FilterDate() {
   const handleEndDateChange = event => {
     setEndDay(event.target.value);
   };
-  // const onClear = () => {
-  //   setStartDate('');
-  //   setEndDate('');
-  // };
+
   const getPeriod = () => {
     const startDate = new Date(startDay).toISOString();
     const endDate = new Date(endDay).toISOString();
     if (startDate > endDate) {
       setNote(true);
     }
-
     setPeriod([startDate, endDate]);
 
     dispatch(savePeriod(period));
   };
 
-  console.log(period);
-
   return (
     <WrapSelectDate>
       <WrapStart>
-        {/* <WrapDates> */}
         <SelectDateStart
           placeholder="from"
           type="text"
@@ -83,7 +60,6 @@ export default function FilterDate() {
             <IoIosArrowUp className="icon-arrow" />
           )}
         </BtnArrow>
-        {/* </WrapDates> */}
         <WrapOptionsDate
           style={{
             display: !isStart ? 'none' : 'block',
@@ -93,7 +69,6 @@ export default function FilterDate() {
         </WrapOptionsDate>
       </WrapStart>
       <WrapEnd>
-        {/* <WrapDates> */}
         <SelectDateEnd
           placeholder="to"
           type="text"
@@ -101,7 +76,6 @@ export default function FilterDate() {
           defaultValue={endDay}
           readOnly={endDay}
         />
-        {/* </WrapDates> */}
         <BtnArrow onClick={() => setIsEnd(!isEnd)}>
           {isEnd ? (
             <IoIosArrowDown className="icon-arrow" />
@@ -112,9 +86,6 @@ export default function FilterDate() {
         <BtnArrow onClick={getPeriod}>
           <IoMdDoneAll className="icon-done" />
         </BtnArrow>
-        {/* <BtnArrow onClick={onClear}>
-          <IoMdClose className="icon-clear" />
-        </BtnArrow> */}
         <WrapOptionsDate
           style={{
             display: !isEnd ? 'none' : 'block',

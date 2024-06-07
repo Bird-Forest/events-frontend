@@ -1,20 +1,4 @@
 import styled from 'styled-components';
-export const WrapGoBack = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
-  margin: 0 auto;
-  .back {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.11;
-    text-align: left;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0;
-  }
-`;
 
 export const FormWrap = styled.div`
   display: flex;
@@ -32,10 +16,8 @@ export const FormWrap = styled.div`
     align-items: center;
     width: 280px;
     backdrop-filter: blur(2px);
-    /* background-color: rgb(153, 187, 255, 0.5); */
     background-color: rgb(204, 221, 255, 0.5);
     border-radius: 16px;
-    /* background-color: #90caf9; */
     gap: 8px;
     padding: 20px 10px 40px 10px;
   }
@@ -77,16 +59,13 @@ export const FormWrap = styled.div`
       align-items: center;
       width: 380px;
       backdrop-filter: blur(2px);
-      /* background-color: rgb(153, 187, 255, 0.5); */
       background-color: rgb(204, 221, 255, 0.5);
       border-radius: 16px;
-      /* background-color: #90caf9; */
       gap: 8px;
       padding: 20px 20px 40px 20px;
     }
   }
 `;
-
 export const InputWrap = styled.div`
   display: flex;
   flex-direction: column;

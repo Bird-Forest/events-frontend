@@ -1,11 +1,10 @@
 import React, { useRef } from 'react';
-import { WrapAuthPage } from './Page.styled';
+import { WrapGoBack, WrapPage } from './Page.styled';
 import Registration from 'components/registration/Registration';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import Loading from 'helper/Loading';
 import { useGetEventByIdQuery } from '../redux/eventSlice';
 import EmptyPage from 'helper/EmptyPage';
-import { WrapGoBack } from 'components/registration/Register.styled';
 
 export default function RegisterPage() {
   const location = useLocation();
@@ -15,7 +14,7 @@ export default function RegisterPage() {
   const id = params.id;
   const { data, error, isLoading } = useGetEventByIdQuery(id);
   return (
-    <WrapAuthPage>
+    <WrapPage>
       <WrapGoBack>
         <Link to={backHref.current} className="back">
           Go Back
@@ -23,8 +22,8 @@ export default function RegisterPage() {
       </WrapGoBack>
       {isLoading ? <Loading /> : <Registration data={data} id={id} />}
       {error && (
-        <EmptyPage message={'The service is temporarily unavailable.'} />
+        <EmptyPage message={'Ми працюємо над усуненням незручностей'} />
       )}
-    </WrapAuthPage>
+    </WrapPage>
   );
 }

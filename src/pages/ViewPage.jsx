@@ -1,6 +1,6 @@
 import ViewList from 'components/view/ViewList';
 import React, { useEffect, useRef, useState } from 'react';
-import { WrapViewPage } from './Page.styled';
+import { WrapGoBack, WrapPage } from './Page.styled';
 import { useGetEventByIdQuery } from '../redux/eventSlice';
 import Loading from 'helper/Loading';
 import EmptyPage from 'helper/EmptyPage';
@@ -9,7 +9,6 @@ import {
   BtnSearch,
   SearchInput,
   ViewWrap,
-  WrapGoBack,
   WrapInput,
   WrapSearch,
 } from 'components/view/View.styled';
@@ -24,12 +23,11 @@ export default function ViewPage() {
   const { data, error, isLoading } = useGetEventByIdQuery(id);
 
   const participants = data?.participants;
-  // console.log(participants);
 
   const [byName, setByName] = useState(' ');
   const [byEmail, setByEmail] = useState(' ');
   const [users, setUsers] = useState([]);
-  // console.log(users);
+
   useEffect(() => {
     if (!participants) return;
     setUsers(participants);
@@ -61,7 +59,7 @@ export default function ViewPage() {
   };
 
   return (
-    <WrapViewPage>
+    <WrapPage>
       <ViewWrap>
         <WrapGoBack>
           <Link to={backHref.current} className="back">
@@ -100,7 +98,9 @@ export default function ViewPage() {
         </WrapSearch>
       </ViewWrap>
       {isLoading ? <Loading /> : <ViewList users={users} />}
-      {error && <EmptyPage message={'Нажаль нічого не знайдено'} />}
-    </WrapViewPage>
+      {error && (
+        <EmptyPage message={'Ми працюємо над усуненням незручностей'} />
+      )}
+    </WrapPage>
   );
 }

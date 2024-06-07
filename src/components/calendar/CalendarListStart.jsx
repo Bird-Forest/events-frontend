@@ -13,10 +13,7 @@ export default function CalendarListStart({ handleStartDateChange }) {
     const daysArr = [];
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
-      // console.log(item);
-      // let day = format(new Date(item), 'yyyy, MM, dd');
       let day = format(new Date(item), 'yyyy-MM-dd');
-      // console.log(day);
       daysArr.push(day);
     }
     return daysArr;
@@ -28,7 +25,6 @@ export default function CalendarListStart({ handleStartDateChange }) {
     const monthArr = [];
     for (let i = 0; i < arr.length; i++) {
       let item = arr[i];
-      // console.log(item);
       monthArr.push(item);
     }
     return monthArr;
@@ -39,7 +35,10 @@ export default function CalendarListStart({ handleStartDateChange }) {
     setIndex(prevIndex => prevIndex + value);
   };
   const total = months.length;
-  const showMonth = months[index - 1];
+  // ** це робоча змінна
+  // const showMonth = months[index - 1];
+  // ** встановлений липень, в якому відбуваються події
+  const showMonth = months[2];
   const days = getDaysArr(showMonth);
 
   const monthName = format(new Date(showMonth[20]), 'MMMM, y');

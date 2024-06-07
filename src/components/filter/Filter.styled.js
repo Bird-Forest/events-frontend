@@ -70,10 +70,6 @@ export const WrapFilter = styled.div`
   @media only screen and (min-width: 1100px) {
     flex-direction: row;
   }
-
-  /* @media only screen and (min-width: 1449px) {
-    flex-direction: row;
-  } */
 `;
 // ** CATEGORY **
 export const WrapCategory = styled.div`
@@ -210,10 +206,6 @@ export const OptionForm = styled.li`
 // **** CALENDAR *****
 export const WrapSelectDate = styled.div`
   display: flex;
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; */
   flex-direction: column;
   gap: 16px;
   padding: 0;
@@ -312,11 +304,21 @@ export const WrapBtn = styled.div`
 `;
 
 export const Diagram = styled.button`
-  width: 36px;
-  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  cursor: pointer;
   .icon-graph {
     fill: #ffffff;
     width: 36px;
     height: 36px;
+  }
+  &:hover,
+  :focus {
+    background-color: #01579b;
   }
 `;
