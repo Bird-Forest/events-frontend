@@ -13,10 +13,8 @@ export const FilterBar = styled.div`
   margin: 0 auto;
   @media only screen and (min-width: 1100px) {
     justify-content: center;
-    align-items: center;
-    height: fit-content;
-    gap: 20px;
-    padding: 20px 0 10px 0;
+    gap: 16px;
+    padding: 20px;
   }
 `;
 // ** MOBILE **
@@ -39,24 +37,17 @@ export const BtnMobile = styled.button`
     display: none;
   }
 `;
-export const FilterVisual = styled.div`
+export const FilterMob = styled.div`
   position: absolute;
   top: 52px;
-  display: none;
+  display: block;
   width: 100%;
   height: 100vh;
   backdrop-filter: blur(2px);
   background-color: rgb(153, 187, 255, 0.5);
   padding: 16px 0;
   @media only screen and (min-width: 1100px) {
-    position: relative;
-    top: 0;
-    display: block;
-    width: min-content;
-    height: auto;
-    padding: 0;
-    backdrop-filter: blur(0);
-    background-color: transparent;
+    display: none;
   }
 `;
 export const WrapFilter = styled.div`
@@ -66,7 +57,7 @@ export const WrapFilter = styled.div`
   align-items: center;
   gap: 16px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   @media only screen and (min-width: 1100px) {
     flex-direction: row;
   }
@@ -75,7 +66,7 @@ export const WrapFilter = styled.div`
 export const WrapCategory = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   padding: 0;
   margin: 0 auto;
   @media only screen and (min-width: 1100px) {
@@ -207,7 +198,7 @@ export const OptionForm = styled.li`
 export const WrapSelectDate = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   padding: 0;
   margin: 0 auto;
   @media only screen and (min-width: 1100px) {

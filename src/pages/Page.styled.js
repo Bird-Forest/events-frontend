@@ -10,6 +10,9 @@ export const WrapHomePage = styled.div`
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
+  @media only screen and (min-width: 768px) {
+    padding: 20px;
+  }
 `;
 export const WrapGoBack = styled.div`
   display: flex;

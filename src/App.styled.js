@@ -15,7 +15,4 @@ export const Container = styled.div`
   background-position: bottom;
   padding: 0;
   margin: 0 auto;
-  @media only screen and (min-width: 768px) {
-    height: 100vh;
-  }
 `;
