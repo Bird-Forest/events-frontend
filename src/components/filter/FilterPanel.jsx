@@ -10,8 +10,10 @@ import FilterDate from './FilterDate';
 import FilterCategory from './FilterCategory';
 import { FaFilter } from 'react-icons/fa6';
 import { GiHistogram } from 'react-icons/gi';
+
 import { Link } from 'react-router-dom';
 import WindowWidth from '../../helper/WindowWidth';
+import Leanguage from './Leanguage';
 
 export default function FilterPanel() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,6 +46,7 @@ export default function FilterPanel() {
           <GiHistogram className="icon-graph" />
         </Diagram>
       </Link>
+      <Leanguage />
     </FilterBar>
   );
 }

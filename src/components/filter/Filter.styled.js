@@ -293,7 +293,7 @@ export const WrapBtn = styled.div`
   padding: 0;
   margin: 0 auto;
 `;
-
+// *** CHARTS ****
 export const Diagram = styled.button`
   display: flex;
   justify-content: center;
@@ -312,4 +312,54 @@ export const Diagram = styled.button`
   :focus {
     background-color: #01579b;
   }
+`;
+// ** LANGUAGE ****
+export const WrapLng = styled.div`
+  position: relative;
+  display: flex;
+`;
+export const BtnLng = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  cursor: pointer;
+  .icon-lng {
+    stroke: #ffffff;
+    width: 36px;
+    height: 36px;
+  }
+  &:hover,
+  :focus {
+    background-color: #01579b;
+  }
+`;
+export const ListLng = styled.ul`
+  position: absolute;
+  z-index: 2;
+  top: 44px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(18, 20, 23, 0.05);
+  border-radius: 4px;
+  background-color: #fffde7;
+  gap: 4px;
+  width: 40px;
+  height: 48px;
+  padding: 4px;
+`;
+export const ItemLng = styled.li`
+  color: #0277bd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
 `;
