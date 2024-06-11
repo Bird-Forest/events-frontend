@@ -5,6 +5,7 @@ import FormInput from './FormInput';
 import FormRadio from './FormRadio';
 import { FormWrap } from './Register.styled';
 import { useUpdateEventMutation } from '../../redux/EventSlice';
+import { useTranslation } from 'react-i18next';
 
 const validationSchema = Yup.object({
   name: Yup.string()
@@ -22,10 +23,11 @@ const initialValues = {
 };
 
 export default function Registration({ id, data }) {
+  const { t } = useTranslation();
   const radioOptions = [
-    { value: 'Social media', label: 'Social media' },
-    { value: 'Friends', label: 'Friends' },
-    { value: 'Found myself', label: 'Found myself' },
+    { value: 'Social media', label: `${t('radio.label1')}` },
+    { value: 'Friends', label: `${t('radio.label2')}` },
+    { value: 'Found myself', label: `${t('radio.label3')}` },
   ];
 
   const [updateEvent] = useUpdateEventMutation();
@@ -54,12 +56,12 @@ export default function Registration({ id, data }) {
       >
         {props => (
           <Form className="my-form" autoComplete="off">
-            <h3 className="my-title"> Event registration</h3>
-            <FormInput label="Full name" name="name" type="text" />
+            <h3 className="my-title">{t('auth.title')}</h3>
+            <FormInput label={t('auth.name')} name="name" type="text" />
             <FormInput label="Email" name="email" type="email" />
             <FormRadio name="radio" options={radioOptions} />
             <button type="submit" className="button">
-              {props.isSubmitting ? 'loading...' : 'Submit'}
+              {props.isSubmitting ? 'loading...' : `${t('auth.btn')}`}
             </button>
           </Form>
         )}

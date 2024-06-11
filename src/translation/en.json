@@ -1,0 +1,34 @@
+{
+  "back": " Go Back",
+  "event": {
+    "auth": "Register",
+    "view": "View"
+  },
+  "auth": {
+    "title": "Register for the course",
+    "name": "Full name",
+    "info": "Where did you hear about us?",
+    "btn": "Send"
+  },
+  "radio": {
+    "label1": "Social media",
+    "lable2": "Friends",
+    "lable3": "Found myself"
+  },
+  "view": {
+    "name": "search name ...",
+    "email": "search email ..."
+  },
+  "filter": {
+    "organizer": "organizer...",
+    "speciality": "speciality...",
+    "from": "from",
+    "to": "to"
+  },
+  "chart": {
+    "title1": "Statistics by organizers",
+    "label1": "Organizeries",
+    "title2": "Statistics by speciality",
+    "label2": "Specialities"
+  }
+}

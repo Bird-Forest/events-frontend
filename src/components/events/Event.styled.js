@@ -138,7 +138,7 @@ export const ItemLink = styled.button`
   width: 140px;
   height: 40px;
   color: #fffde7;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
   text-decoration: none;

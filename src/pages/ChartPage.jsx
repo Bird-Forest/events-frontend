@@ -6,8 +6,10 @@ import { WrapCharts } from 'components/charts/Chart.styled';
 import ChartsOrganizer from 'components/charts/ChartsOrganizer';
 import ChartsSpeciality from 'components/charts/ChartsSpeciality';
 import { useGetEventsAllQuery } from '../redux/EventSlice';
+import { useTranslation } from 'react-i18next';
 
 export default function ChartPage() {
+  const { t } = useTranslation();
   const location = useLocation();
   const backHref = useRef(location.state?.from ?? '/');
   const { data, isLoading } = useGetEventsAllQuery();
@@ -16,7 +18,7 @@ export default function ChartPage() {
     <WrapPage>
       <WrapGoBack>
         <Link to={backHref.current} className="back">
-          Go Back
+          {t('back')}
         </Link>
       </WrapGoBack>
       {isLoading ? (

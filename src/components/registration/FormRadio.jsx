@@ -1,14 +1,16 @@
 import { useField } from 'formik';
 import React from 'react';
 import { ErrorMessage, RadioWrap } from './Register.styled';
+import { useTranslation } from 'react-i18next';
 
 export default function FormRadio({ name, options }) {
+  const { t } = useTranslation();
   const [field, meta] = useField(name);
   const errorClass = meta.touched && meta.error ? 'error' : '';
 
   return (
     <RadioWrap>
-      <h4 className="radio-title">Where did hear about this event ?</h4>
+      <h4 className="radio-title">{t('auth.info')}</h4>
       {options.map(option => (
         <label key={option.value} className={`label-picked ${errorClass}`}>
           <input

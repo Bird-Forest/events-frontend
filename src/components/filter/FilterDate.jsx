@@ -14,8 +14,10 @@ import CalendarListSEnd from 'components/calendar/CalendarListEnd';
 import { useDispatch } from 'react-redux';
 import { savePeriod } from '../../redux/filterSlice';
 import Notification from 'helper/Notification';
+import { useTranslation } from 'react-i18next';
 
 export default function FilterDate() {
+  const { t } = useTranslation();
   const [startDay, setStartDay] = useState('');
   const [endDay, setEndDay] = useState('');
   const [period, setPeriod] = useState([]);
@@ -47,7 +49,7 @@ export default function FilterDate() {
     <WrapSelectDate>
       <WrapStart>
         <SelectDateStart
-          placeholder="from"
+          placeholder={t('filter.from')}
           type="text"
           id="start-date"
           defaultValue={startDay}
@@ -70,7 +72,7 @@ export default function FilterDate() {
       </WrapStart>
       <WrapEnd>
         <SelectDateEnd
-          placeholder="to"
+          placeholder={t('filter.to')}
           type="text"
           id="end-date"
           defaultValue={endDay}

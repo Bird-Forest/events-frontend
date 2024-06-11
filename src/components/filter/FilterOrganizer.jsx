@@ -9,8 +9,11 @@ import {
 } from './Filter.styled';
 import { useDispatch } from 'react-redux';
 import { saveOrganizer } from '../../redux/filterSlice';
+import { useTranslation } from 'react-i18next';
 
 export default function FilterOrganizer({ organizers }) {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(false);
   const [organizer, setOrganizer] = useState('');
   const dispatch = useDispatch();
@@ -32,7 +35,7 @@ export default function FilterOrganizer({ organizers }) {
         name="organizer"
         defaultValue={organizer}
         readOnly={organizer}
-        placeholder="organizer..."
+        placeholder={t('filter.organizer')}
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (

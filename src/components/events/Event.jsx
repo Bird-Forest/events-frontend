@@ -11,8 +11,12 @@ import {
   WrapLink,
 } from './Event.styled';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-export default function Event({ item, location }) {
+export default function Event({ item }) {
+  const { t } = useTranslation();
+  // const eventLng = i18n.language;
+  // console.log(eventLng);
   const id = item._id;
 
   const dateObj = new Date(item.date);
@@ -31,10 +35,10 @@ export default function Event({ item, location }) {
       </ItemWab>
       <WrapLink>
         <Link to={`${id}/register`}>
-          <ItemLink>Register</ItemLink>
+          <ItemLink>{t('event.auth')}</ItemLink>
         </Link>
         <Link to={`${id}/view`}>
-          <ItemLink>View </ItemLink>
+          <ItemLink>{t('event.view')}</ItemLink>
         </Link>
       </WrapLink>
     </ItemWrap>

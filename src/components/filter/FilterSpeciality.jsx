@@ -9,8 +9,10 @@ import {
 } from './Filter.styled';
 import { useDispatch } from 'react-redux';
 import { saveSpeciality } from '../../redux/filterSlice';
+import { useTranslation } from 'react-i18next';
 
 export default function FilterSpeciality({ specialties }) {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [title, setTitle] = useState('');
   const dispatch = useDispatch();
@@ -31,7 +33,7 @@ export default function FilterSpeciality({ specialties }) {
         name="speciality"
         defaultValue={title}
         readOnly={title}
-        placeholder="speciality..."
+        placeholder={t('filter.speciality')}
       />
       <BtnArrow onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (

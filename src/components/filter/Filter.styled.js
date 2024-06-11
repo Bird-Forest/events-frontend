@@ -362,4 +362,5 @@ export const ItemLng = styled.li`
   font-weight: 400;
   line-height: 20px;
   text-align: left;
+  cursor: pointer;
 `;

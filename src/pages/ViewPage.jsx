@@ -13,8 +13,10 @@ import {
 } from 'components/view/View.styled';
 import { BsCheckCircle, BsXCircle } from 'react-icons/bs';
 import { useGetEventByIdQuery } from '../redux/EventSlice';
+import { useTranslation } from 'react-i18next';
 
 export default function ViewPage() {
+  const { t } = useTranslation();
   const location = useLocation();
   const backHref = useRef(location.state?.from ?? '/');
 
@@ -63,7 +65,7 @@ export default function ViewPage() {
       <ViewWrap>
         <WrapGoBack>
           <Link to={backHref.current} className="back">
-            Go Back
+            {t('back')}
           </Link>
         </WrapGoBack>
         <WrapSearch>
@@ -71,7 +73,7 @@ export default function ViewPage() {
             <SearchInput
               name="name"
               type="text"
-              placeholder="search name ..."
+              placeholder={t('view.name')}
               onChange={evt => setByName(evt.target.value)}
             />
             <BtnSearch type="button" onClick={getArrByName}>
@@ -85,7 +87,7 @@ export default function ViewPage() {
             <SearchInput
               name="email"
               type="text"
-              placeholder="search email ..."
+              placeholder={t('view.email')}
               onChange={evt => setByEmail(evt.target.value)}
             />
             <BtnSearch type="button" onClick={getArrByEmail}>

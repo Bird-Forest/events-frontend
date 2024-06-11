@@ -5,8 +5,10 @@ import { Link, useLocation, useParams } from 'react-router-dom';
 import Loading from 'helper/Loading';
 import EmptyPage from 'helper/EmptyPage';
 import { useGetEventByIdQuery } from '../redux/EventSlice';
+import { useTranslation } from 'react-i18next';
 
 export default function RegisterPage() {
+  const { t } = useTranslation();
   const location = useLocation();
   const backHref = useRef(location.state?.from ?? '/');
 
@@ -17,7 +19,7 @@ export default function RegisterPage() {
     <WrapPage>
       <WrapGoBack>
         <Link to={backHref.current} className="back">
-          Go Back
+          {t('back')}
         </Link>
       </WrapGoBack>
       {isLoading ? <Loading /> : <Registration data={data} id={id} />}
