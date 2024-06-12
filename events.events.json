@@ -1,0 +1,6327 @@
+[{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb1"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Frontend розробник може легко створити сторінки вебсайту чи вебдодаток. Він відповідає за те, щоб сторінка мала гарний вигляд на різних пристроях, реалізує анімації та інші візуальні ефекти.",
+  "organizer": "Mate academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c12"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c13"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c14"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c15"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c16"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c17"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c18"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c19"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c1a"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c1b"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c1c"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c1d"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c1e"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c1f"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3e18c2ea693511714c20"
+      }
+    },
+    {
+      "name": "Tom Fisher",
+      "email": "tom@gmail.com",
+      "radio": "Social media",
+      "_id": {
+        "$oid": "6664c4a76e065cc4b0dcd096"
+      }
+    }
+  ],
+  "web": "https://mate.academy/",
+  "updatedAt": {
+    "$date": "2024-06-08T20:52:55.250Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb2"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "Python дозволяє тобі не тільки розробляти сайти та займатись аналітикою даних, а ще й будувати алгоритми, тестувати програми та навіть створювати штучні інтелекти. Це все лише питання твоїх амбіцій.",
+  "organizer": "Mate academy",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e04"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e05"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e06"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e07"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e08"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e09"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e0a"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e0b"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e0c"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e0d"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e0e"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e0f"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e10"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e11"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e12"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e13"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e14"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e15"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c41bac2ea693511714e16"
+      }
+    }
+  ],
+  "web": "https://mate.academy/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:56:10.484Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb3"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "Java developer",
+  "description": "Мова програмування Java існує вже понад 20 років, і її використувають майже в усіх галузях: від мобільних додатків до сайтів, від фінансової сфери до аграрної. Java легко вивчається новачками",
+  "organizer": "Mate academy",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e2b"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e2c"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e2d"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e2e"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e2f"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e30"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e31"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e32"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e33"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e34"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e35"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e36"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e37"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e38"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e39"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e3a"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e3b"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e3c"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c41cdc2ea693511714e3d"
+      }
+    }
+  ],
+  "web": "https://mate.academy/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:56:29.048Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb4"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "Fullstack developer",
+  "description": "Fullstack developer вміє працювати як з фронтендом, так і з бекендом сайта, що дозволяє релізовувати будь-яку ідею комплексно і самостійно.",
+  "organizer": "Mate academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f66"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f67"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f68"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f69"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f6a"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f6b"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f6c"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f6d"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f6e"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f6f"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f70"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f71"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f72"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f73"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c43bac2ea693511714f74"
+      }
+    }
+  ],
+  "web": "https://mate.academy/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:04:42.229Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb5"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "QA спеціаліст перевіряє IT-продукти на міцність. Він розробляє плани тестування додатків та сайтів, щоб користувачі не стикалися з помилками чи проблемами під час використання продукта.",
+  "organizer": "Mate academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c39d4c2ea693511714b5e"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c39d4c2ea693511714b5f"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c39d4c2ea693511714b60"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c39d4c2ea693511714b61"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c39d4c2ea693511714b62"
+      }
+    }
+  ],
+  "web": "https://mate.academy/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:22:28.864Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb6"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "UI/UX designer, як професійний шпигун, дізнається про все, що турбує користувача. На основі цього, він робить сайти та додатки зручними й естетичними. Ця професія поєднує в собі як творчість, так і аналітику.",
+  "organizer": "Mate academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3c0fc2ea693511714b69"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3c0fc2ea693511714b6a"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3c0fc2ea693511714b6b"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3c0fc2ea693511714b6c"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3c0fc2ea693511714b6d"
+      }
+    }
+  ],
+  "web": "https://mate.academy/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:31:59.956Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb7"
+  },
+  "date": {
+    "$date": "2024-07-24T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Освоєння Front-End розробки може бути відмінним вибором для тих, хто цікавиться веб-розробкою та хоче мати вплив на вигляд та функціональність веб-проектів.",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f85"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f86"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f87"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f88"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f89"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f8a"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f8b"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f8c"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f8d"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f8e"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f8f"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f90"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f91"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f92"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c43e0c2ea693511714f93"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:05:20.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb8"
+  },
+  "date": {
+    "$date": "2024-07-10T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "Цей Курс Python для всіх тих, хто за короткий термін хоче освоїти професію веб-розробника, в колі однодумців та отримати підтримку та фідбек тренера Python-Developer’а. ",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e52"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e53"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e54"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e55"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e56"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e57"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e58"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e59"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e5a"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e5b"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e5c"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e5d"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e5e"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e5f"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e60"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e61"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e62"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e63"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c41e4c2ea693511714e64"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:56:52.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bb9"
+  },
+  "date": {
+    "$date": "2024-07-10T17:20:14.340Z"
+  },
+  "title": "Cybersecurity",
+  "description": "Курс з кібербезпеки — це спосіб підготувати себе до захисту інформації та мереж в сучасному цифровому світі. Незалежно від досвіду або освіти, цей курс призначений для всіх, хто цікавиться кібербезпекою. ",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3c35c2ea693511714b74"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3c35c2ea693511714b75"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3c35c2ea693511714b76"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3c35c2ea693511714b77"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3c35c2ea693511714b78"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:32:37.042Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bba"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "Product Manager ",
+  "description": "Професія менеджера продукту (Product Manager) в галузі IT може бути цікавою і стимулюючою для тих, хто цікавиться технологіями, інноваціями і розвитком продуктів. ",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e79"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e7a"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e7b"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e7c"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e7d"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e7e"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e7f"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e80"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e81"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e82"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e83"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e84"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e85"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e86"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e87"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e88"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e89"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e8a"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c4210c2ea693511714e8b"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:57:36.896Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bbb"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "Цей Курс QA для всіх, хто хоче працювати і заробляти в IT. Для тих, хто за короткий термін хоче освоїти професію, не маючи при цьому досвіду роботи та технічної освіти. ",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c424dc2ea693511714ea0"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c424dc2ea693511714ea1"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c424dc2ea693511714ea2"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c424dc2ea693511714ea3"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c424dc2ea693511714ea4"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c424dc2ea693511714ea5"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:58:37.079Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bbc"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "Веб-дизайн — це цікава та перспективна професія, яка може принести як творче задоволення, так і фінансову стабільність.",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3c56c2ea693511714b7f"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3c56c2ea693511714b80"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3c56c2ea693511714b81"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3c56c2ea693511714b82"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3c56c2ea693511714b83"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:33:10.163Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bbd"
+  },
+  "date": {
+    "$date": "2024-07-10T17:20:14.340Z"
+  },
+  "title": "Data Analytics",
+  "description": "Курс з Дата Аналізу — найкращий спосіб підготувати себе до вивчення та розвитку в сфері аналізу даних в сучасному цифровому світі.  ",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c31"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c32"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c33"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c34"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c35"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c36"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c37"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c38"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c39"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c3a"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c3b"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c3c"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c3d"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c3e"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3e2cc2ea693511714c3f"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:41:00.370Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bbe"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Програма навчання Junior Frontend Developer. На онлайн-курсі ти навчишся створювати інтерфейси вебсайтів та застосунків",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b8a"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b8b"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b8c"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b8d"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b8e"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b8f"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b90"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b91"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b92"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3cc3c2ea693511714b93"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:34:59.771Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bbf"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "Fullstack developer",
+  "description": "Опануйте професію Junior Fullstack Developer з повним циклом створення сучасних вебсайтів та вебзастосунків з нуля за 10 місяців",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714b9f"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba0"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba1"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba2"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba3"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba4"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba5"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba6"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba7"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3cf8c2ea693511714ba8"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:35:52.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc0"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "Java developer",
+  "description": "Ти навчишся створювати «начинку» вебсайтів, програм, застосунків і зможеш працювати Junior Java Developer",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c50"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c51"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c52"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c53"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c54"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c55"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c56"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c57"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c58"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c59"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c5a"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c5b"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c5c"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c5d"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3e5dc2ea693511714c5e"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:41:49.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc1"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "Навчання Python для початківців. Ти навчишся створювати «начинку» програм і зможеш працювати Python зі знаннями Data Science and Machine Learning",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c6f"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c70"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c71"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c72"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c73"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c74"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c75"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c76"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c77"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c78"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c79"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c7a"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c7b"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c7c"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c7d"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c7e"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c7f"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c80"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c81"
+      }
+    },
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c3ecec2ea693511714c82"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:43:42.158Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc2"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "Ти навчишся тестувати вебсайти і мобільні застосунки та зможеш працювати Junior QA Engineer",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c98"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c99"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c9a"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c9b"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c9c"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c9d"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c9e"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714c9f"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca0"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca1"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca2"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca3"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca4"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca5"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca6"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca7"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca8"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714ca9"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714caa"
+      }
+    },
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c3ef8c2ea693511714cab"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:44:24.549Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc3"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "Ти навчишся створювати сучасні інтерфейси та зможеш працювати UI/UX дизайнером у IT або Digital",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4261c2ea693511714ead"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4261c2ea693511714eae"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4261c2ea693511714eaf"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4261c2ea693511714eb0"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4261c2ea693511714eb1"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4261c2ea693511714eb2"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:58:57.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc4"
+  },
+  "date": {
+    "$date": "2024-07-24T17:20:14.340Z"
+  },
+  "title": "Cybersecurity",
+  "description": "На курсі ти навчишся створювати систему кіберзахисту окремих застосунків, веб-платформ і інфраструктури бізнесу в цілому",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc1"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc2"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc3"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc4"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc5"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc6"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc7"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc8"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cc9"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cca"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714ccb"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714ccc"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714ccd"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cce"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714ccf"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cd0"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cd1"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cd2"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cd3"
+      }
+    },
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c3f0cc2ea693511714cd4"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:44:44.940Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc5"
+  },
+  "date": {
+    "$date": "2024-07-26T17:20:14.340Z"
+  },
+  "title": "Project management",
+  "description": "Ти навчишся керувати IT-проєктами, Agile-командами і зможеш працювати проджект-менеджером в IT або Digital",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fa4"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fa5"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fa6"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fa7"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fa8"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fa9"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714faa"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fab"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fac"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fad"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fae"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714faf"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb0"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb1"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb2"
+      }
+    },
+    {
+      "name": "Ms. Annie Schneider",
+      "email": "Diego44@yahoo.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb3"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb4"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb5"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb6"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c4432c2ea693511714fb7"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua-ru/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:06:42.569Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc6"
+  },
+  "date": {
+    "$date": "2024-07-26T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Розробка видимої частини будь-якого сайту називається Front-end, і це область програмування, яка розвивається швидше за інші. Жоден сучасний веб-сайт і веб-додаток не обійдуться без Front-end розробника.",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cea"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714ceb"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cec"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714ced"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cee"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cef"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf0"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf1"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf2"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf3"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf4"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf5"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf6"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf7"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf8"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cf9"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cfa"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cfb"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cfc"
+      }
+    },
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c3f22c2ea693511714cfd"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T09:45:06.524Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc7"
+  },
+  "date": {
+    "$date": "2024-07-31T17:20:14.340Z"
+  },
+  "title": "Fullstack developer",
+  "description": "На курсі Full-Stack ти зможеш швидко засвоїти навички розробки мовою JavaScript з обох боків — клієнтського та серверного (Front-end і Back-end).",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fcd"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fce"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fcf"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd0"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd1"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd2"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd3"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd4"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd5"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd6"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd7"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd8"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fd9"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fda"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fdb"
+      }
+    },
+    {
+      "name": "Ms. Annie Schneider",
+      "email": "Diego44@yahoo.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fdc"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fdd"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fde"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fdf"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c4445c2ea693511714fe0"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T10:07:01.267Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc8"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "Java developer",
+  "description": "Java — найбільш поширена мова програмування, вона не складна в освоєнні, тому підходить тим, хто вперше підійшов до вивчення програмування, а попит на Java розробників стабільно високий. ",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ff6"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ff7"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ff8"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ff9"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ffa"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ffb"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ffc"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ffd"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714ffe"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511714fff"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715000"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715001"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715002"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715003"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715004"
+      }
+    },
+    {
+      "name": "Ms. Annie Schneider",
+      "email": "Diego44@yahoo.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715005"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715006"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715007"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715008"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c4458c2ea693511715009"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T10:07:20.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bc9"
+  },
+  "date": {
+    "$date": "2024-07-24T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "PHP — скриптова мова, яка інтенсивно застосовується для розробки веб-додатків. В даний час вона є одним з лідерів серед мов, що застосовуються для створення динамічних веб-сайтів. ",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4274c2ea693511714eba"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4274c2ea693511714ebb"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4274c2ea693511714ebc"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4274c2ea693511714ebd"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4274c2ea693511714ebe"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4274c2ea693511714ebf"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T09:59:16.892Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bca"
+  },
+  "date": {
+    "$date": "2024-07-26T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "Курс по тестуванню програмного забезпечення QA Manual — це хороший спосіб розвитку вашої кар'єри в IT-індустрії.",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4288c2ea693511714ec7"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4288c2ea693511714ec8"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4288c2ea693511714ec9"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4288c2ea693511714eca"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4288c2ea693511714ecb"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4288c2ea693511714ecc"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T09:59:36.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bcb"
+  },
+  "date": {
+    "$date": "2024-07-31T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "Цей курс є ідеальним вибором для тих, хто бажає вивчити мистецтво створення інтуїтивно зрозумілих та естетично приємних інтерфейсів для вебсайтів і застосунків. ",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c3fc3c2ea693511714d13"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c3fc3c2ea693511714d14"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c3fc3c2ea693511714d15"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c3fc3c2ea693511714d16"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c3fc3c2ea693511714d17"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T09:47:47.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bcc"
+  },
+  "date": {
+    "$date": "2024-07-31T17:20:14.340Z"
+  },
+  "title": "Project management",
+  "description": "Курс розглядає мистецтво управління проектами. Він підійде тим, хто хоче зробити кар'єру в IT або створити свій технологічний проект.",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714ed4"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714ed5"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714ed6"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714ed7"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714ed8"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714ed9"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714eda"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714edb"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714edc"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c42dfc2ea693511714edd"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T10:01:03.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bcd"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "Recruitment & HR",
+  "description": "IT-сфера — це динамічне середовище, що постійно розвивається , і по-справжньому досвідчених і кваліфікованих фахівців знайти складно. ",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c3fe1c2ea693511714d1e"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c3fe1c2ea693511714d1f"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c3fe1c2ea693511714d20"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c3fe1c2ea693511714d21"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c3fe1c2ea693511714d22"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/ru/courses",
+  "updatedAt": {
+    "$date": "2024-06-02T09:48:17.663Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bce"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Студенти Beetroot Academy переконалися, що відкрити нові кар'єрні можливості можна за лічені місяці. Найважче — почати! ",
+  "organizer": "Beetroot",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c3ffdc2ea693511714d29"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c3ffdc2ea693511714d2a"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c3ffdc2ea693511714d2b"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c3ffdc2ea693511714d2c"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c3ffdc2ea693511714d2d"
+      }
+    }
+  ],
+  "web": "https://beetroot.academy",
+  "updatedAt": {
+    "$date": "2024-06-02T09:48:45.787Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bcf"
+  },
+  "date": {
+    "$date": "2024-07-10T17:20:14.340Z"
+  },
+  "title": "Project management",
+  "description": "Project Manager (PM) або проєктний менеджер займається управлінням проєктами. Їхнє завдання – створити ефективний робочий процес та дбати про успішність проєкту. ",
+  "organizer": "Beetroot",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d34"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d35"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d36"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d37"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d38"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d39"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d3a"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d3b"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d3c"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4086c2ea693511714d3d"
+      }
+    }
+  ],
+  "web": "https://beetroot.academy",
+  "updatedAt": {
+    "$date": "2024-06-02T09:51:02.807Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd0"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "Business Analysis",
+  "description": "Курс для тих, хто хоче вивчити бізнес-аналіз з нуля! Хочеш перейти в IT, отримати нову професію без технічного бекграунду і стати сильним трейні або джуніор бізнес-аналітиком? Тоді цей курс для тебе.",
+  "organizer": "Beetroot",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d49"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d4a"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d4b"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d4c"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d4d"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d4e"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d4f"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d50"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d51"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c40a7c2ea693511714d52"
+      }
+    }
+  ],
+  "web": "https://beetroot.academy",
+  "updatedAt": {
+    "$date": "2024-06-02T09:51:35.880Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd1"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "‍Python — інтерпретована мова програмування. Ти пишеш програму як текст, запускаєш її та бачиш результат. Ми навчимо тебе основ програмування, розповімо, як користуватись фреймворками.",
+  "organizer": "Beetroot",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171501f"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715020"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715021"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715022"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715023"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715024"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715025"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715026"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715027"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715028"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715029"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171502a"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171502b"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171502c"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171502d"
+      }
+    },
+    {
+      "name": "Ms. Annie Schneider",
+      "email": "Diego44@yahoo.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171502e"
+      }
+    },
+    {
+      "name": "Dominic Cummings",
+      "email": "Herminia71@yahoo.com",
+      "_id": {
+        "$oid": "665c4469c2ea69351171502f"
+      }
+    },
+    {
+      "name": "Henry Morar",
+      "email": "Jaleel_Ledner47@hotmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715030"
+      }
+    },
+    {
+      "name": "Catherine Schuppe Jr.",
+      "email": "Orpha.Johnson@yahoo.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715031"
+      }
+    },
+    {
+      "name": "Daniel Moen",
+      "email": "Lily_Schroeder@gmail.com",
+      "_id": {
+        "$oid": "665c4469c2ea693511715032"
+      }
+    }
+  ],
+  "web": "https://beetroot.academy",
+  "updatedAt": {
+    "$date": "2024-06-02T10:07:37.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd2"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "Тестувальники займаються тестуванням програмного забезпечення, виявленням та усуненням помилок або так званих багів.",
+  "organizer": "Beetroot",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d5e"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d5f"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d60"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d61"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d62"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d63"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d64"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d65"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d66"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c40bdc2ea693511714d67"
+      }
+    }
+  ],
+  "web": "https://beetroot.academy",
+  "updatedAt": {
+    "$date": "2024-06-02T09:51:57.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd3"
+  },
+  "date": {
+    "$date": "2024-07-10T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "UX/UI дизайнери розробляють інтерфейси, з якими взаємодіє користувач. Вони можуть працювати із сайтами, мобільними застосунками, платіжними системами, дашбордами тощо. ",
+  "organizer": "Beetroot",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c44c1c2ea693511715048"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c44c1c2ea693511715049"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c44c1c2ea69351171504a"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c44c1c2ea69351171504b"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c44c1c2ea69351171504c"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c44c1c2ea69351171504d"
+      }
+    }
+  ],
+  "web": "https://beetroot.academy",
+  "updatedAt": {
+    "$date": "2024-06-02T10:09:05.185Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd4"
+  },
+  "date": {
+    "$date": "2024-07-24T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Найбільший курс front end розробки з працевлаштуванням. Навчимо вас не тільки HTML/CSS, Git, JavaScript, TypeScript React, Angular, , а ще і Node.JS, MySQL, MongoDB, Nest.JS, Next.JS",
+  "organizer": "OKTEN",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bb4"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bb5"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bb6"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bb7"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bb8"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bb9"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bba"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bbb"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bbc"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3d0fc2ea693511714bbd"
+      }
+    }
+  ],
+  "web": "https://owu.com.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:36:15.957Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd5"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "Fullstack developer",
+  "description": "Понад 960 годин навчання, під час яких ви вивчите такі технології як HTML/CSS, GIT, React або Angular, MySQL, MongoDB, Java або Python або Node.JS",
+  "organizer": "OKTEN",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d73"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d74"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d75"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d76"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d77"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d78"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d79"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d7a"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d7b"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c40d9c2ea693511714d7c"
+      }
+    }
+  ],
+  "web": "https://owu.com.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:52:25.399Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd6"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "Java developer",
+  "description": "Протягом останніх 8 років ми доводимо, що головне - це бажання та продуктивна школа програмування з гарною програмою курсу java.",
+  "organizer": "OKTEN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c44d1c2ea693511715055"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c44d1c2ea693511715056"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c44d1c2ea693511715057"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c44d1c2ea693511715058"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c44d1c2ea693511715059"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c44d1c2ea69351171505a"
+      }
+    }
+  ],
+  "web": "https://owu.com.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:09:21.774Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd7"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "Ми розробили спеціальну програму, яка містить в собі 6 занять на тиждень, та спеціальний підхід до її викладання",
+  "organizer": "OKTEN",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714ee9"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714eea"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714eeb"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714eec"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714eed"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714eee"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714eef"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714ef0"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714ef1"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c42f6c2ea693511714ef2"
+      }
+    }
+  ],
+  "web": "https://owu.com.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:01:26.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd8"
+  },
+  "date": {
+    "$date": "2024-07-26T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "Курс тестерів + автоматизація на java з Selenium 3. Найбільший курс автоматизації в Україні з комплексом технологій необхідних для працевлаштування",
+  "organizer": "OKTEN",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bc9"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bca"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bcb"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bcc"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bcd"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bce"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bcf"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bd0"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bd1"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3d2bc2ea693511714bd2"
+      }
+    }
+  ],
+  "web": "https://owu.com.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:36:43.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bd9"
+  },
+  "date": {
+    "$date": "2024-07-31T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "Розробка зовнішньої та внутрішньої реклами, з використанням засобів площинної та тривимірної графіки.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714bde"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714bdf"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be0"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be1"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be2"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be3"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be4"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be5"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be6"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3d9bc2ea693511714be7"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:38:35.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bda"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "Навчання front-end розробці варто вибрати через глобальну цифровізацію – сьогодні практично не залишилося компаній, які не вийшли в онлайн.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714efe"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714eff"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f00"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f01"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f02"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f03"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f04"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f05"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f06"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c430dc2ea693511714f07"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:01:49.633Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bdb"
+  },
+  "date": {
+    "$date": "2024-07-10T17:20:14.340Z"
+  },
+  "title": "Fullstack developer",
+  "description": "Пройшовши курс Full Stack, ви станете універсальним програмістом, який може з нуля розробити повноцінний IT-продукт.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f13"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f14"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f15"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f16"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f17"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f18"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f19"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f1a"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f1b"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c431fc2ea693511714f1c"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:02:07.862Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bdc"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "Java developer",
+  "description": "Java розробку слід вибирати через її кросплатформеність – на Java можна створити будь-яку програму для будь-якого пристрою.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf3"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf4"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf5"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf6"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf7"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf8"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bf9"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bfa"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bfb"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bfc"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bfd"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bfe"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714bff"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714c00"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c3e04c2ea693511714c01"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:40:20.611Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bdd"
+  },
+  "date": {
+    "$date": "2024-07-24T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "Створення додатків із використанням штучного інтелекту сьогодні – пріоритетний IT-напрямок, і в майбутньому запит на нього лише зростатиме.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d88"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d89"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d8a"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d8b"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d8c"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d8d"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d8e"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d8f"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d90"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d91"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d92"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d93"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d94"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d95"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c4122c2ea693511714d96"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:53:38.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bde"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "Business Analysis",
+  "description": "Курс буде корисним всім, хто цікавиться бізнес-аналітикою: прагне опанувати нову професію або поглибити свої знання в області бізнес-аналізу в IT галузі.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c44e0c2ea693511715062"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c44e0c2ea693511715063"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c44e0c2ea693511715064"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c44e0c2ea693511715065"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c44e0c2ea693511715066"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c44e0c2ea693511715067"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:09:36.782Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645bdf"
+  },
+  "date": {
+    "$date": "2024-07-26T17:20:14.340Z"
+  },
+  "title": "Project management",
+  "description": "Project Manager (проєктний менеджер, проджект-менеджер) - це спеціаліст, відповідальний за ефективну організацію всіх процесів у рамках проєкту та за його результат.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714da7"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714da8"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714da9"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714daa"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714dab"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714dac"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714dad"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714dae"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714daf"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714db0"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714db1"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714db2"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714db3"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714db4"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c413bc2ea693511714db5"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:54:03.594Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645be0"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "На курсі QA ви дізнаєтесь, як знаходити помилки та баги додатків за допомогою різноманітних методів тестування ПЗ. Навчитеся перевіряти додатки, сайти на відповідність вимогам замовників.",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f28"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f29"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f2a"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f2b"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f2c"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f2d"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f2e"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f2f"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f30"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f31"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f32"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f33"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f34"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f35"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c438ec2ea693511714f36"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:03:58.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645be1"
+  },
+  "date": {
+    "$date": "2024-07-31T17:20:14.340Z"
+  },
+  "title": "DevOps",
+  "description": "Будь-яка компанія з розробки ПЗ прагне підвищити продуктивність розробників, скоротити час випуску нових додатків з мінімальними помилками. DevOps - це той спеціаліст, який може організувати цей процес. ",
+  "organizer": "IT STEP",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dc6"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dc7"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dc8"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dc9"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dca"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dcb"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dcc"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dcd"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dce"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dcf"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dd0"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dd1"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dd2"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dd3"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c4151c2ea693511714dd4"
+      }
+    }
+  ],
+  "web": "https://cloud.itstep.org/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:54:25.324Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645be2"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "Cybersecurity",
+  "description": "Курс створений у співпраці з агенцією Apercon та розглядає підготовку менеджерів з кібербезпеки з необхідними знаннями та навичками для ефективного управління кібербезпекою в організаціях.",
+  "organizer": "Hillel",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c44f2c2ea69351171506f"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c44f2c2ea693511715070"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c44f2c2ea693511715071"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c44f2c2ea693511715072"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c44f2c2ea693511715073"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c44f2c2ea693511715074"
+      }
+    }
+  ],
+  "web": "https://ithillel.ua/school",
+  "updatedAt": {
+    "$date": "2024-06-02T10:09:54.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645be3"
+  },
+  "date": {
+    "$date": "2024-07-23T17:20:14.340Z"
+  },
+  "title": "Recruitment & HR",
+  "description": "Ти навчишся шукати топових спеціалістів, проводити співбесіди, оцінювати кандидатів і зможеш працювати рекрутером в IT",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714de5"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714de6"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714de7"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714de8"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714de9"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714dea"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714deb"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714dec"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714ded"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714dee"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714def"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714df0"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714df1"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714df2"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c4168c2ea693511714df3"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T09:54:48.602Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645be4"
+  },
+  "date": {
+    "$date": "2024-07-24T17:20:14.340Z"
+  },
+  "title": "Business Analysis",
+  "description": "Ти навчишся спілкуватися з замовниками, розв'язувати проблеми бізнесу і зможеш працювати бізнес-аналітиком в IT або Digital",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c4534c2ea69351171507c"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4534c2ea69351171507d"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4534c2ea69351171507e"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4534c2ea69351171507f"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715080"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715081"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715082"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715083"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715084"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715085"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715086"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4534c2ea693511715087"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:11:00.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558424f0d8ece658645be5"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "DevOps",
+  "description": "Компанії шукають DevOps-інженерів. Професія DevOps-спеціаліста може бути дуже вигідною для тих, хто бажає працювати в галузі інформаційних технологій",
+  "organizer": "Web Academy",
+  "participants": [
+    {
+      "name": "Donnie Hand",
+      "email": "London.Barton72@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f47"
+      }
+    },
+    {
+      "name": "Mr. Alton Schmidt",
+      "email": "Karlee50@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f48"
+      }
+    },
+    {
+      "name": "Tanya Wiegand DVM",
+      "email": "Rahsaan.Hansen@yahoo.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f49"
+      }
+    },
+    {
+      "name": "Lynda Hegmann",
+      "email": "Brendon14@hotmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f4a"
+      }
+    },
+    {
+      "name": "Sheila MacGyver",
+      "email": "Maye7@yahoo.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f4b"
+      }
+    },
+    {
+      "name": "Margarita Lueilwitz",
+      "email": "Clark_Mann@yahoo.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f4c"
+      }
+    },
+    {
+      "name": "Alexander Schowalter",
+      "email": "Mallory_Marks@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f4d"
+      }
+    },
+    {
+      "name": "Sadie Spencer",
+      "email": "Ocie_Harber14@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f4e"
+      }
+    },
+    {
+      "name": "Marion O'Conner",
+      "email": "Ericka_Kunde70@hotmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f4f"
+      }
+    },
+    {
+      "name": "Freda Bruen",
+      "email": "Louie45@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f50"
+      }
+    },
+    {
+      "name": "Marcus Glover Sr.",
+      "email": "Santa_Gerlach@hotmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f51"
+      }
+    },
+    {
+      "name": "Troy Boyle",
+      "email": "Joy_Casper49@hotmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f52"
+      }
+    },
+    {
+      "name": "Claude Rolfson",
+      "email": "Loyal59@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f53"
+      }
+    },
+    {
+      "name": "Jimmy Schoen",
+      "email": "Johnathan_Gorczany50@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f54"
+      }
+    },
+    {
+      "name": "Jeanne Harris",
+      "email": "Jo89@gmail.com",
+      "_id": {
+        "$oid": "665c43a2c2ea693511714f55"
+      }
+    }
+  ],
+  "web": "https://web-academy.ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:04:18.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558a4af0d8ece658645be8"
+  },
+  "date": {
+    "$date": "2024-07-26T17:20:14.340Z"
+  },
+  "title": "Frontend developer",
+  "description": "FrontEnd розробник створює видиму для користувача частину веб-сторінки і його головне завдання – точно передати у верстанні те, що створив дизайнер, а також реалізувати логіку користувача.",
+  "organizer": "ITVDN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c4546c2ea693511715095"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4546c2ea693511715096"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4546c2ea693511715097"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4546c2ea693511715098"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4546c2ea693511715099"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4546c2ea69351171509a"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4546c2ea69351171509b"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4546c2ea69351171509c"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4546c2ea69351171509d"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4546c2ea69351171509e"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4546c2ea69351171509f"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4546c2ea6935117150a0"
+      }
+    }
+  ],
+  "web": "https://itvdn.com/ua",
+  "updatedAt": {
+    "$date": "2024-06-02T10:11:18.422Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558a64f0d8ece658645bea"
+  },
+  "date": {
+    "$date": "2024-07-31T17:20:14.340Z"
+  },
+  "title": "UI/UX designer",
+  "description": "UI/UX дизайнер — це проєктувальник користувацьких інтерфейсів, в яких зручності використання (UX) приділяється не менше уваги, ніж гарному та ефектному зовнішньому вигляду інтерфейсу (UI). ",
+  "organizer": "ITVDN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150ae"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150af"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b0"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b1"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b2"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b3"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b4"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b5"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b6"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b7"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b8"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4560c2ea6935117150b9"
+      }
+    }
+  ],
+  "web": "https://itvdn.com/ua",
+  "updatedAt": {
+    "$date": "2024-06-02T10:11:44.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558a84f0d8ece658645bec"
+  },
+  "date": {
+    "$date": "2024-07-03T17:20:14.340Z"
+  },
+  "title": "Python developer",
+  "description": "Знаючи одну мову, Ви зможете реалізувати себе в будь-якому напрямку IT-розроблення. Поєднання простоти та багатства можливостей – ось за що цінують Python.",
+  "organizer": "ITVDN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150c7"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150c8"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150c9"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150ca"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150cb"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150cc"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150cd"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150ce"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150cf"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150d0"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150d1"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c4571c2ea6935117150d2"
+      }
+    }
+  ],
+  "web": "https://itvdn.com/ua",
+  "updatedAt": {
+    "$date": "2024-06-02T10:12:01.941Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558a9ef0d8ece658645bee"
+  },
+  "date": {
+    "$date": "2024-07-05T17:20:14.340Z"
+  },
+  "title": "Java developer",
+  "description": "Надійність, потужність, ефективність та мультиплатформність – головні візитні картки Java. Якщо хочете працювати з класичним інструментом, якому під силу будь-яке завдання - Java для вас.",
+  "organizer": "ITVDN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e0"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e1"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e2"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e3"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e4"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e5"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e6"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e7"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e8"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150e9"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150ea"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150eb"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150ec"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150ed"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150ee"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150ef"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150f0"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150f1"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150f2"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c45d0c2ea6935117150f3"
+      }
+    }
+  ],
+  "web": "https://itvdn.com/ua",
+  "updatedAt": {
+    "$date": "2024-06-02T10:13:36.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558abef0d8ece658645bf0"
+  },
+  "date": {
+    "$date": "2024-07-12T17:20:14.340Z"
+  },
+  "title": "Fullstack developer",
+  "description": "Web FullStack розробник є дуже цінним спеціалістом з високою затребуваністю для ІТ, оскільки здатний одноосібно створити веб-застосунок з нуля без залучення інших девелоперів",
+  "organizer": "ITVDN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715109"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171510a"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171510b"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171510c"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171510d"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171510e"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171510f"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715110"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715111"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715112"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715113"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715114"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715115"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715116"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715117"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715118"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea693511715119"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171511a"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171511b"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c45e1c2ea69351171511c"
+      }
+    }
+  ],
+  "web": "https://itvdn.com/ua",
+  "updatedAt": {
+    "$date": "2024-06-02T10:13:53.161Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66558ae6f0d8ece658645bf2"
+  },
+  "date": {
+    "$date": "2024-07-17T17:20:14.340Z"
+  },
+  "title": "QA engineer",
+  "description": "Контроль якості ПЗ та ретельне тестування дозволяє робити цифровий світ більш досконалим та зручним. Ви будете виконувати надзвичайно корисну роботу, без якої жодне ПЗ ніколи б не вийшло в світ",
+  "organizer": "ITVDN",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715132"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715133"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715134"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715135"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715136"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715137"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715138"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715139"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea69351171513a"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea69351171513b"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea69351171513c"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea69351171513d"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea69351171513e"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea69351171513f"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715140"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715141"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715142"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715143"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715144"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c45f8c2ea693511715145"
+      }
+    }
+  ],
+  "web": "https://itvdn.com/ua",
+  "updatedAt": {
+    "$date": "2024-06-02T10:14:16.266Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66575289af9db64749184c30"
+  },
+  "date": {
+    "$date": "2024-07-19T17:20:14.340Z"
+  },
+  "title": "No-code",
+  "description": "No-code-разработчик — это айтишник, который создает веб-приложения не через написание кода, а через платформы-конструкторы.",
+  "organizer": "GoIT",
+  "participants": [
+    {
+      "name": "Elias Block",
+      "email": "Nathan70@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171515b"
+      }
+    },
+    {
+      "name": "Robyn Zemlak",
+      "email": "Trever_Roob90@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171515c"
+      }
+    },
+    {
+      "name": "Lori Strosin",
+      "email": "Colin.Murray94@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171515d"
+      }
+    },
+    {
+      "name": "Lynne Schuster",
+      "email": "Willis.Schulist97@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171515e"
+      }
+    },
+    {
+      "name": "Jonathon Bogisich",
+      "email": "Eleonore11@gmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171515f"
+      }
+    },
+    {
+      "name": "Sean Hauck",
+      "email": "Edgar75@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715160"
+      }
+    },
+    {
+      "name": "Orville Bartoletti",
+      "email": "Juliet61@gmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715161"
+      }
+    },
+    {
+      "name": "Peggy Romaguera",
+      "email": "Rocio_Williamson@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715162"
+      }
+    },
+    {
+      "name": "Chelsea Berge",
+      "email": "Allene_McClure@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715163"
+      }
+    },
+    {
+      "name": "Doyle Friesen",
+      "email": "Shemar37@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715164"
+      }
+    },
+    {
+      "name": "Fernando Blick",
+      "email": "Alexandro_Connelly@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715165"
+      }
+    },
+    {
+      "name": "Doyle Bauch",
+      "email": "Delphia89@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715166"
+      }
+    },
+    {
+      "name": "Mr. Alyssa Wiegand",
+      "email": "Claudia.OConner3@gmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715167"
+      }
+    },
+    {
+      "name": "Miss Sonja Osinski",
+      "email": "Lavina.Dare13@gmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715168"
+      }
+    },
+    {
+      "name": "Edwin Herman",
+      "email": "Steve8@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea693511715169"
+      }
+    },
+    {
+      "name": "Julie Fahey",
+      "email": "Madie_Boyer2@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171516a"
+      }
+    },
+    {
+      "name": "Jonathan Reilly",
+      "email": "Lauren.Rodriguez@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171516b"
+      }
+    },
+    {
+      "name": "Denise Batz",
+      "email": "Kaela63@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171516c"
+      }
+    },
+    {
+      "name": "Kenneth Heaney",
+      "email": "Liliana72@yahoo.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171516d"
+      }
+    },
+    {
+      "name": "Misty Kuhn",
+      "email": "Conor.Ritchie86@hotmail.com",
+      "_id": {
+        "$oid": "665c460bc2ea69351171516e"
+      }
+    }
+  ],
+  "web": "https://goit.global/ua/",
+  "updatedAt": {
+    "$date": "2024-06-02T10:14:35.114Z"
+  }
+}]

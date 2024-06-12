@@ -14,6 +14,7 @@ export default function CalendarMonth({ month, handleSelect }) {
   };
 
   const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+
   const days = getDaysArr(month);
   return (
     <WrapDays>

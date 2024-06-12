@@ -13,6 +13,7 @@ import EmptyPage from '../../helper/EmptyPage';
 import { nanoid } from '@reduxjs/toolkit';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
+
 import {
   selectOrganizer,
   selectPeriod,
@@ -46,7 +47,7 @@ export default function EventList({ location }) {
         <>
           <ListWrap>
             {events.map(item => (
-              <Event key={nanoid()} item={item} location={location} />
+              <Event key={nanoid()} item={item} />
             ))}
           </ListWrap>
 

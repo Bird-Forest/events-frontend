@@ -16,29 +16,15 @@ i18n
       uk: { translation: lngUA },
     },
 
+    saveMissing: true,
     languages: ['en', 'uk'],
-    fallbackLng: ['uk'],
+    fallbackLng: 'uk',
+    joinArrays: true,
+    returnObjects: true,
 
     // interpolation: {
     //   escapeValue: false, // react already safes from xss
     // },
   });
-
-// .use(Backend)
-// .use(LanguageDetector)
-// .use(initReactI18next)
-// .init({
-//   debug: true,
-//   // languages: ['en', 'uk', 'ru', 'de'],
-//   fallbackLng: 'en',
-//   returnEmptyString: false,
-//   // interpolation: {
-//   //   escapeValue: false, // not needed for react as it escapes by default
-//   // },
-
-//   react: {
-//     useSuspense: false,
-//   },
-// });
 
 export default i18n;

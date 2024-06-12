@@ -4,8 +4,17 @@ import { Days, Panel, Week, WrapDays, WrapMonth } from './Calendar.styled';
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 import { period } from './date';
 import { nanoid } from '@reduxjs/toolkit';
+import { useTranslation } from 'react-i18next';
+import { en, uk } from 'date-fns/locale';
 
 export default function CalendarListStart({ handleStartDateChange }) {
+  const { t, i18n } = useTranslation();
+  // const week = i18n.options.resources.en.translation.week;
+  const week = t('week', { returnObjects: true });
+  console.log(week);
+  const lng = i18n.language;
+  console.log(lng);
+
   const [index, setIndex] = useState(1);
 
   // ** функция для заполнения дней в календаре
@@ -19,7 +28,8 @@ export default function CalendarListStart({ handleStartDateChange }) {
     return daysArr;
   };
   // ** массив дней недели
-  const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+  // const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+
   // ** функция для определения месяцев в периоде
   const getMonthArr = arr => {
     const monthArr = [];
@@ -64,9 +74,9 @@ export default function CalendarListStart({ handleStartDateChange }) {
       </Panel>
       <WrapDays>
         <Week>
-          {week.map(item => (
+          {week.map(i => (
             <li key={nanoid()} className="week-day">
-              {item}
+              {t(`${i}`)}
             </li>
           ))}
         </Week>

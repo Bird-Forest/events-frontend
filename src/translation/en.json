@@ -25,10 +25,247 @@
     "from": "from",
     "to": "to"
   },
-  "chart": {
-    "title1": "Statistics by organizers",
-    "label1": "Organizeries",
-    "title2": "Statistics by speciality",
-    "label2": "Specialities"
-  }
+  "week": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+  "listDescript": [
+    {
+      "id": "66558424f0d8ece658645bb1",
+      "description": "Frontend developer can easily create website pages or web application. It is responsible for ensuring that the page looks good on different devices, implements animations and other visual effects."
+    },
+    {
+      "id": "66558424f0d8ece658645bb2",
+      "description": "Python allows you not only to develop websites and engage in data analytics, but also to build algorithms, test programs and even create artificial intelligence. It's all just a matter of your ambitions."
+    },
+    {
+      "id": "66558424f0d8ece658645bb3",
+      "description": "The Java programming language has been around for over 20 years, and it is used in almost all industries: from mobile applications to websites, from finance to agriculture. Java is easy to learn for beginners"
+    },
+    {
+      "id": "66558424f0d8ece658645bb4",
+      "description": "Fullstack developer knows how to work with both the frontend and the backend of the site, which allows you to realize any idea comprehensively and independently."
+    },
+    {
+      "id": "66558424f0d8ece658645bb5",
+      "description": "A QA specialist checks IT products for durability. He develops plans for testing applications and sites so that users do not encounter errors or problems while using the product."
+    },
+    {
+      "id": "66558424f0d8ece658645bb6",
+      "description": "A UI/UX designer, like a professional spy, learns about everything that worries the user. Based on this, it makes sites and applications convenient and aesthetic. This profession combines both creativity and analytics."
+    },
+    {
+      "id": "66558424f0d8ece658645bb7",
+      "description": "Mastering Front-End Development can be an excellent choice for those who are interested in web development and want to have an impact on the look and functionality of web projects."
+    },
+    {
+      "id": "66558424f0d8ece658645bb8",
+      "description": "This Python Course is for all those who want to master the profession of a web developer in a short time, in a circle of like-minded people and receive support and feedback from a Python-Developer trainer."
+    },
+    {
+      "id": "66558424f0d8ece658645bb9",
+      "description": "A cyber security course is a way to prepare yourself to protect information and networks in today's digital world. Regardless of experience or education, this course is for anyone interested in cybersecurity."
+    },
+    {
+      "id": "66558424f0d8ece658645bba",
+      "description": "The profession of product manager (Product Manager) in the field of IT can be interesting and stimulating for those who are interested in technology, innovation and product development."
+    },
+    {
+      "id": "66558424f0d8ece658645bbb",
+      "description": "This QA Course is for everyone who wants to work and earn in IT. For those who want to learn a profession in a short period of time without having work experience and technical education."
+    },
+    {
+      "id": "66558424f0d8ece658645bbc",
+      "description": "Web design is an interesting and promising profession that can bring both creative satisfaction and financial stability."
+    },
+    {
+      "id": "66558424f0d8ece658645bbd",
+      "description": "A course in Data Analysis is the best way to prepare yourself to study and develop in the field of data analysis in today's digital world."
+    },
+    {
+      "id": "66558424f0d8ece658645bbe",
+      "description": "Junior Frontend Developer training program. In the online course, you will learn how to create interfaces for websites and applications"
+    },
+    {
+      "id": "66558424f0d8ece658645bbf",
+      "description": "Master the Junior Fullstack Developer profession with the full cycle of creating modern websites and web applications from scratch in 10 months"
+    },
+    {
+      "id": "66558424f0d8ece658645bc0",
+      "description": "You will learn how to create the filling of websites, programs, and applications and will be able to work as a Junior Java Developer"
+    },
+    {
+      "id": "66558424f0d8ece658645bc1",
+      "description": "Learn Python for beginners. You will learn to create stuffing programs and be able to work with Python with knowledge of Data Science and Machine Learning"
+    },
+    {
+      "id": "66558424f0d8ece658645bc2",
+      "description": "You will learn to test websites and mobile applications and will be able to work as a Junior QA Engineer"
+    },
+    {
+      "id": "66558424f0d8ece658645bc3",
+      "description": "You will learn to create modern interfaces and will be able to work as a UI/UX designer in IT or Digital"
+    },
+    {
+      "id": "66558424f0d8ece658645bc4",
+      "description": "In the course, you will learn how to create a cyber protection system for individual applications, a web platform for business infrastructure as a whole"
+    },
+    {
+      "id": "66558424f0d8ece658645bc5",
+      "description": "You will learn to manage IT projects, Agile teams and be able to work as a project manager in IT or Digital"
+    },
+    {
+      "id": "66558424f0d8ece658645bc6",
+      "description": "The development of the visible part of any site is called Front-end, and it is an area of ​​programming that is developing faster than others. No modern website and web application can do without a front-end developer."
+    },
+    {
+      "id": "66558424f0d8ece658645bc7",
+      "description": "In the Full-Stack course, you will be able to quickly learn JavaScript development skills from both sides - client and server (Front-end and Back-end)."
+    },
+    {
+      "id": "66558424f0d8ece658645bc8",
+      "description": "Java is the most common programming language, it is not difficult to learn, so it is suitable for those who first approached programming, and the demand for Java developers is consistently high."
+    },
+    {
+      "id": "66558424f0d8ece658645bc9",
+      "description": "PHP is a scripting language that is heavily used for developing web applications. Currently, it is one of the leaders among the languages ​​used to create dynamic websites."
+    },
+    {
+      "id": "66558424f0d8ece658645bca",
+      "description": "The QA Manual software testing course is a good way to advance your career in the IT industry."
+    },
+    {
+      "id": "66558424f0d8ece658645bcb",
+      "description": "This course is an ideal choice for those who wish to learn the art of creating intuitive and aesthetically pleasing interfaces for websites and applications."
+    },
+    {
+      "id": "66558424f0d8ece658645bcc",
+      "description": "The course examines the art of project management. It will suit those who want to make a career in IT or create their own technological project."
+    },
+    {
+      "id": "66558424f0d8ece658645bcd",
+      "description": "The IT sphere is a dynamic environment that is constantly developing, and it is difficult to find truly experienced and qualified specialists."
+    },
+    {
+      "id": "66558424f0d8ece658645bce",
+      "description": "Beetroot Academy students are convinced that it is possible to open new career opportunities in a matter of months. The most difficult thing is to start!"
+    },
+    {
+      "id": "66558424f0d8ece658645bcf",
+      "description": "Project Manager (PM) or project manager deals with project management. Their task is to create an effective work process and ensure the success of the project."
+    },
+    {
+      "id": "66558424f0d8ece658645bd0",
+      "description": "A course for those who want to learn business analysis from scratch! Do you want to switch to IT, get a new profession without a technical background and become a strong trainee or junior business analyst? Then this course is for you."
+    },
+    {
+      "id": "66558424f0d8ece658645bd1",
+      "description": "Python is an interpreted programming language. You write the program as text, run it and see the result. We will teach you the basics of programming, tell you how to use frameworks."
+    },
+    {
+      "id": "66558424f0d8ece658645bd2",
+      "description": "Testers are engaged in testing software, identifying and eliminating errors or so-called bugs."
+    },
+    {
+      "id": "66558424f0d8ece658645bd3",
+      "description": "UX/UI designers design interfaces with which the user interacts. They can work with websites, mobile applications, payment systems, dashboards, etc."
+    },
+    {
+      "id": "66558424f0d8ece658645bd4",
+      "description": "The largest front end development course with employment. We will teach you not only HTML/CSS, Git, JavaScript, TypeScript React, Angular, but also Node.JS, MySQL, MongoDB, Nest.JS, Next.JS"
+    },
+    {
+      "id": "66558424f0d8ece658645bd5",
+      "description": "Over 960 hours of training, during which you will learn technologies such as HTML/CSS, GIT, React or Angular, MySQL, MongoDB, Java or Python or Node.JS"
+    },
+    {
+      "id": "66558424f0d8ece658645bd6",
+      "description": "For the past 8 years, we have been proving that the main thing is desire and a productive programming school with a good java course program."
+    },
+    {
+      "id": "66558424f0d8ece658645bd7",
+      "description": "We have developed a special program that includes 6 classes per week and a special approach to its teaching"
+    },
+    {
+      "id": "66558424f0d8ece658645bd8",
+      "description": "Course of testers + automation in java with Selenium 3. The largest automation course in Ukraine with a complex of technologies necessary for employment"
+    },
+    {
+      "id": "66558424f0d8ece658645bd9",
+      "description": "Development of external and internal advertising, using planar and three-dimensional graphics."
+    },
+    {
+      "id": "66558424f0d8ece658645bda",
+      "description": "Training in front-end development should be chosen due to global digitalization - today there are practically no companies left that have not gone online."
+    },
+    {
+      "id": "66558424f0d8ece658645bdb",
+      "description": "After completing the Full Stack course, you will become a versatile programmer who can develop a full-fledged IT product from scratch."
+    },
+    {
+      "id": "66558424f0d8ece658645bdc",
+      "description": "Java development should be chosen due to its cross-platform nature - any program can be created on Java for any device."
+    },
+    {
+      "id": "66558424f0d8ece658645bdd",
+      "description": "Creating applications using artificial intelligence is a priority IT area today, and the demand for it will only grow in the future."
+    },
+    {
+      "id": "66558424f0d8ece658645bde",
+      "description": "The course will be useful to everyone who is interested in business analytics: seeks to learn a new profession or deepen their knowledge in the field of business analysis in the IT industry."
+    },
+    {
+      "id": "66558424f0d8ece658645bdf",
+      "description": "Project Manager (project manager, project manager) is a specialist responsible for the effective organization of all processes within the project and for its result."
+    },
+    {
+      "id": "66558424f0d8ece658645be0",
+      "description": "In the QA course, you will learn how to find errors and application bugs using various software testing methods. Learn how to check applications and sites for compliance with customer requirements."
+    },
+    {
+      "id": "66558424f0d8ece658645be1",
+      "description": "Any software development company strives to increase the productivity of developers, reduce the time it takes to release new applications with minimal errors. DevOps is the specialist who can organize this process."
+    },
+    {
+      "id": "66558424f0d8ece658645be2",
+      "description": "The course was created in collaboration with the Apercon agency and looks at training cyber security managers with the necessary knowledge and skills to effectively manage cyber security in organizations."
+    },
+    {
+      "id": "66558424f0d8ece658645be3",
+      "description": "You will learn how to search for top specialists, conduct interviews, evaluate candidates and be able to work as a recruiter in IT"
+    },
+    {
+      "id": "66558424f0d8ece658645be4",
+      "description": "You will learn to communicate with customers, solve business problems and be able to work as a business analyst in IT or Digital"
+    },
+    {
+      "id": "66558424f0d8ece658645be5",
+      "description": "Companies are looking for DevOps engineers. A career as a DevOps specialist can be very beneficial for those who want to work in the field of information technology"
+    },
+    {
+      "id": "66558a4af0d8ece658645be8",
+      "description": "The FrontEnd developer creates the user-visible part of the web page, and his main task is to accurately convey to the workstation what the designer created, as well as to implement the user's logic."
+    },
+    {
+      "id": "66558a64f0d8ece658645bea",
+      "description": "A UI/UX designer is a designer of user interfaces in which ease of use (UX) is given no less attention than the beautiful and effective appearance of the interface (UI)."
+    },
+    {
+      "id": "66558a84f0d8ece658645bec",
+      "description": "Knowing one language, you will be able to realize yourself in any direction of IT development. The combination of simplicity and wealth of possibilities is what Python is valued for."
+    },
+    {
+      "id": "66558a9ef0d8ece658645bee",
+      "description": "Reliability, power, efficiency and cross-platform are the main business cards of Java. If you want to work with a classic tool that can handle any task - Java is for you."
+    },
+    {
+      "id": "66558abef0d8ece658645bf0",
+      "description": "A Web FullStack developer is a very valuable and in-demand IT specialist because he can single-handedly create a web application from scratch without involving other developers"
+    },
+    {
+      "id": "66558ae6f0d8ece658645bf2",
+      "description": "Software quality control and thorough testing make the digital world more perfect and convenient. You will be doing extremely useful work without which no piece of software would ever be released"
+    },
+    {
+      "id": "66575289af9db64749184c30",
+      "description": "A no-code developer is an IT professional who creates web applications not by writing code, but by building platforms."
+    }
+  ]
 }
