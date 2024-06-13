@@ -17,6 +17,7 @@ export default function Event({ item }) {
   const { t, i18n } = useTranslation();
   const arr = i18n.store.data.en.translation.listDescript;
   const lng = i18n.language;
+  console.log(lng);
 
   const id = item._id;
   const dateObj = new Date(item.date);

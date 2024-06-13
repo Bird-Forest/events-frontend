@@ -18,7 +18,7 @@ i18n
 
     // saveMissing: true,
     languages: ['en', 'uk'],
-    fallbackLng: 'uk',
+    fallbackLng: ['uk'],
     joinArrays: true,
     returnObjects: true,
 
