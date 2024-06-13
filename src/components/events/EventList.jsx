@@ -19,15 +19,17 @@ import {
   selectPeriod,
   selectSpeciality,
 } from '../../redux/selectors';
+import { useTranslation } from 'react-i18next';
 
-export default function EventList({ location }) {
+export default function EventList() {
+  const { t } = useTranslation();
   const [page, setPage] = useState(1);
 
   const param1 = useSelector(selectOrganizer);
   const param2 = useSelector(selectSpeciality);
   const param3 = useSelector(selectPeriod);
 
-  const { data, isLoading } = useGetEventsQuery({
+  const { data, isLoading, error } = useGetEventsQuery({
     param1,
     param2,
     param3,
@@ -69,8 +71,9 @@ export default function EventList({ location }) {
           </WrapBtn>
         </>
       ) : (
-        <EmptyPage message={'Нажаль нічого не знайдено'} />
+        <EmptyPage message={t('empty')} />
       )}
+      {error && <EmptyPage message={t('message')} />}
     </MainWrap>
   );
 }

@@ -4,9 +4,23 @@ import { Days, Panel, Week, WrapDays, WrapMonth } from './Calendar.styled';
 import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 import { period } from './date';
 import { nanoid } from '@reduxjs/toolkit';
+import { useTranslation } from 'react-i18next';
+import { enGB, uk } from 'date-fns/locale';
 
 export default function CalendarListSEnd({ handleEndDateChange }) {
   const [index, setIndex] = useState(1);
+  const { t, i18n } = useTranslation();
+
+  const lng = i18n.language;
+  const locales = { enGB, uk };
+
+  const getLocale = () => {
+    if (lng === 'en') {
+      return locales.enGB;
+    }
+    return locales.uk;
+  };
+  const locLng = getLocale();
 
   const getDaysArr = arr => {
     const daysArr = [];
@@ -18,7 +32,7 @@ export default function CalendarListSEnd({ handleEndDateChange }) {
     return daysArr;
   };
 
-  const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+  const week = t('week', { returnObjects: true });
 
   const getMonthArr = arr => {
     const monthArr = [];
@@ -40,7 +54,9 @@ export default function CalendarListSEnd({ handleEndDateChange }) {
   const showMonth = months[2];
   const days = getDaysArr(showMonth);
 
-  const monthName = format(new Date(showMonth[20]), 'MMMM, y');
+  const monthName = format(new Date(showMonth[20]), 'MMMM, y', {
+    locale: locLng,
+  });
 
   return (
     <WrapMonth>

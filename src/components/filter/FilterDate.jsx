@@ -97,10 +97,7 @@ export default function FilterDate() {
         </WrapOptionsDate>
       </WrapEnd>
       {note && (
-        <Notification
-          message={'Ви не вірно обрали період'}
-          onClose={() => setNote(false)}
-        />
+        <Notification message={t('notif')} onClose={() => setNote(false)} />
       )}
     </WrapSelectDate>
   );

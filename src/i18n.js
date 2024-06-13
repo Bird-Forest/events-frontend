@@ -10,13 +10,13 @@ i18n
   .use(LanguageDetector)
   .use(Backend)
   .init({
-    debug: true,
+    // debug: true,
     resources: {
       en: { translation: lngEN },
       uk: { translation: lngUA },
     },
 
-    saveMissing: true,
+    // saveMissing: true,
     languages: ['en', 'uk'],
     fallbackLng: 'uk',
     joinArrays: true,

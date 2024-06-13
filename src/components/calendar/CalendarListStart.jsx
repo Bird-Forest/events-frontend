@@ -5,17 +5,22 @@ import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 import { period } from './date';
 import { nanoid } from '@reduxjs/toolkit';
 import { useTranslation } from 'react-i18next';
-import { en, uk } from 'date-fns/locale';
+import { enGB, uk } from 'date-fns/locale';
 
 export default function CalendarListStart({ handleStartDateChange }) {
-  const { t, i18n } = useTranslation();
-  // const week = i18n.options.resources.en.translation.week;
-  const week = t('week', { returnObjects: true });
-  console.log(week);
-  const lng = i18n.language;
-  console.log(lng);
-
   const [index, setIndex] = useState(1);
+  const { t, i18n } = useTranslation();
+
+  const lng = i18n.language;
+  const locales = { enGB, uk };
+
+  const getLocale = () => {
+    if (lng === 'en') {
+      return locales.enGB;
+    }
+    return locales.uk;
+  };
+  const locLng = getLocale();
 
   // ** функция для заполнения дней в календаре
   const getDaysArr = arr => {
@@ -28,7 +33,7 @@ export default function CalendarListStart({ handleStartDateChange }) {
     return daysArr;
   };
   // ** массив дней недели
-  // const week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+  const week = t('week', { returnObjects: true });
 
   // ** функция для определения месяцев в периоде
   const getMonthArr = arr => {
@@ -51,7 +56,9 @@ export default function CalendarListStart({ handleStartDateChange }) {
   const showMonth = months[2];
   const days = getDaysArr(showMonth);
 
-  const monthName = format(new Date(showMonth[20]), 'MMMM, y');
+  const monthName = format(new Date(showMonth[20]), 'MMMM, y', {
+    locale: locLng,
+  });
 
   return (
     <WrapMonth>

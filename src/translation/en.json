@@ -26,6 +26,15 @@
     "to": "to"
   },
   "week": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+  "chart": {
+    "title1": "Organizer statistics",
+    "label1": "Organizer",
+    "title2": "Statistics by specialty",
+    "label2": "Speciality"
+  },
+  "empty": "Sorry, nothing found",
+  "message": "We are working on eliminating the inconvenience",
+  "notif": "You chose the wrong period",
   "listDescript": [
     {
       "id": "66558424f0d8ece658645bb1",

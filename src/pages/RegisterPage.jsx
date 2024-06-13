@@ -23,9 +23,7 @@ export default function RegisterPage() {
         </Link>
       </WrapGoBack>
       {isLoading ? <Loading /> : <Registration data={data} id={id} />}
-      {error && (
-        <EmptyPage message={'Ми працюємо над усуненням незручностей'} />
-      )}
+      {error && <EmptyPage message={t('message')} />}
     </WrapPage>
   );
 }
